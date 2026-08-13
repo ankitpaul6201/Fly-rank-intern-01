@@ -12,6 +12,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **2** | **Week 1: Research Question & Problem Framing** | 📄 [submission_02_week1_research_question.md](submissions/submission_02_week1_research_question.md) | [`work/notebooks/w01_research_question.ipynb`](work/notebooks/w01_research_question.ipynb) | Selected **Lane 2: Refresh Opportunity Scoring**, framed decision/action workflow, backed strategy with 13,152 declining visible pages, set claim boundaries. |
 | **3** | **Phase: Setup (AI Workflow Audit & Toolkit Setup)** | 📄 [submission_03_workflow_audit.md](submissions/submission_03_workflow_audit.md) | N/A (Documentation & Setup) | Audited 12 weekly tasks across AI spectrum (3 'Just Me'), configured Claude Project with custom persona/goals, completed Anthropic Academy Module 1, and set target task success criteria. |
 | **4** | **Phase: Setup (Portfolio Sitemap & Claude Tutor Setup)** | 📄 [submission_04_portfolio_sitemap.md](submissions/submission_04_portfolio_sitemap.md) | N/A (Documentation & Design) | Designed lean portfolio sitemap around single proof claim & target action, setup Claude Portfolio Tutor Project, pressure-tested sitemap with AI, and refactored layout to single-page scroll. |
+| **5** | **Phase: Setup (What Are You Proving? Proof Statement)** | 📄 [submission_05_proof_statement.md](submissions/submission_05_proof_statement.md) | N/A (Documentation & Strategy) | Authored hyper-focused 1-paragraph proof statement (claim + person + action), defined one-line "why", and passed AI interview pressure-testing. |
 
 ---
 
@@ -48,6 +49,14 @@ Welcome to the **Submissions Overview** index for this repository. This director
   1. **Conversion Funnel Design:** Every page must directly support the core proof claim and target booking CTA.
   2. **Friction Reduction:** Refactored from multi-page navigation to single-page scroll layout based on Claude pressure-test feedback.
   3. **Continuous AI Mentorship:** Setting up a dedicated Claude Tutor Project enables real-time architectural critiques across the 8-week build.
+
+### 🔹 [Submission 5 — Setup: Proof Statement & Core Focus](submissions/submission_05_proof_statement.md)
+* **What Was Built:** Wrote one-paragraph proof statement answering claim, person, and action, defined one-line "why", and documented AI thinking partner interview refinements.
+* **What I Learned:**
+  1. **Single-Claim Discipline:** Avoiding generic lists of skills ("X and Y and Z") forces sharp differentiation.
+  2. **Audience Specificity:** Targeting a concrete technical lead ensures every metric (Precision@50, client holdouts) resonates.
+  3. **Proving Beyond CVs:** A portfolio's sole job is to prove practical engineering judgment that static resumes cannot convey.
+
 
 
 
