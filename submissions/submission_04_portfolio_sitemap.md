@@ -86,13 +86,39 @@ TUTOR INSTRUCTIONS:
 ### A. The Pressure-Test Prompt
 > *"Act as my portfolio tutor. Here is my sitemap: 1) Hero with Proof Statement, 2) Work/Case Studies, 3) About & Stack, 4) Contact/Schedule. My core claim is 'I build applied, readable ML decision-support systems that transform raw search logs into prioritized action queues', and my single target action is getting visitors to book a 15-minute technical call. Pressure-test this sitemap: Which section is weakest, what should I cut, and what single change will increase conversion?"*
 
-### B. Claude Tutor Response Summary
-1. **Critical Flaw Identified:** Having separate multi-page navigation (`/about` and `/contact`) creates drop-off friction. Technical reviewers rarely click through 4 separate pages.
-2. **Weakest Link:** Standalone `/about` page tends to become a generic resume dump that distracts from live case study evidence.
-3. **Recommended Solution:** Convert to a **single-page linear storytelling layout** with sticky section anchors (`#work`, `#about`, `#contact`). Place the primary CTA ("Schedule 15-Min Call") fixed in the header and embedded directly at the bottom of the FlyRank Case Study.
+### B. Live Claude Tutor Response & Critique
 
-### C. Key Change Implemented Based on Feedback:
-> **Refactored Architecture:** Shifted from a 4-page site structure to a **unified single-page scroll layout (`/`)** with anchored navigation. Added an inline "Book Technical Chat" CTA directly inside the Case Study section so visitors can convert immediately after viewing empirical model results (Precision@50: 0.740).
+```text
+## Pressure-Test: Your Sitemap vs. Proof Statement vs. Target Action
+
+Verdict on each section:
+1. Hero + Proof Statement: Keep, but underbuilt (Right instinct, wrong payload).
+2. Work/Case Studies: This is your product — everything else is scaffolding around this.
+3. About & Stack: WEAKEST SECTION. Generic by default, easy to cut or shrink to 20% of planned size.
+4. Contact/Schedule: Keep, must be everywhere (Fine as a section, but shouldn't be the only place CTA lives).
+
+The weakest section: "About & Stack"
+Hiring managers evaluating decision-support ML systems care if you can take ambiguous, messy data and ship something a non-technical stakeholder trusts and acts on.
+A standalone "About & Stack" page invites a bio and badge wall (Python, Pandas, scikit-learn). That's resume-bullet fluff.
+ACTION: Cut "About & Stack" as a standalone nav item. Fold it into:
+1. A "Stack & Why" module inside each case study.
+2. A 3-line bio embedded in the Contact section.
+
+What's actually underbuilt: your Hero
+A proof statement alone is a claim, not evidence.
+Single highest-leverage change for conversion: Put a real artifact (screenshot/GIF of raw logs -> action queue) in the hero, directly below the proof statement, with primary CTA immediately below that.
+
+Structural Fix to Sitemap:
+1. Hero: Proof statement + Visual artifact (logs -> action queue) + Primary CTA + Secondary CTA (book call).
+2. Work / Case Studies: Carries 80% conversion weight. Problem -> Data reality -> Decision output -> Why it beats naive baseline -> Stack.
+3. Contact / Schedule: 3-line bio + Calendar embed with zero friction.
+```
+
+### C. Key Architectural Changes Implemented Based on AI Feedback
+1. **Eliminated Standalone "About & Stack" Page:** Removed it as a separate navigation item to prevent drop-off and resume fluff; integrated stack justification directly into the FlyRank Case Study.
+2. **Underbuilt Hero Fix:** Added a visual artifact (before/after transformation: raw 30,000 log rows $\rightarrow$ prioritized action queue) directly into the Hero section beneath the proof statement.
+3. **Frictionless Funnel:** Collapsed the page flow into a single-page storytelling layout (`/`) with anchored CTAs, placing the "Book 15-min Technical Chat" button directly under the case study metrics.
+
 
 ---
 
