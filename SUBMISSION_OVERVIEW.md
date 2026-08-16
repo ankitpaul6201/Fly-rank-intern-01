@@ -15,6 +15,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **5** | **Phase: Setup (What Are You Proving? Proof Statement)** | 📄 [submission_05_proof_statement.md](submissions/submission_05_proof_statement.md) | N/A (Documentation & Strategy) | Authored hyper-focused 1-paragraph proof statement (claim + person + action), defined one-line "why", and passed AI interview pressure-testing. |
 | **6** | **Phase: Foundations (ML-03 Task Framing)** | 📄 [submission_06_ml_task_framing.md](submissions/submission_06_ml_task_framing.md) | [`work/notebooks/w02_ml_task_framing.ipynb`](work/notebooks/w02_ml_task_framing.ipynb) | Framed Lane 2 as Ranking / Scoring problem, defined observed target proxy ($\Delta \text{Imp}_{\text{rel}} < -15\%$), defended Precision@50, verified 22,006-row slice, and demonstrated multi-signal ML superiority over static rules (+10.00% gain). |
 | **7** | **Phase: Setup & AI Fluency (FL-02 Frame It As Cases)** | 📄 [submission_07_framed_cases.md](submissions/submission_07_framed_cases.md) | N/A (Documentation & AI Fluency) | Created 5-word voice card, conducted AI Q&A interview, drafted 3-beat case studies for FlyRank, CP Vault, and Campus Buddy, wrote bio/CTA copy, and included generic AI vs edited human before/after line. |
+| **8** | **Phase: Setup & AI Fluency (FL-03 Prompt Ladder)** | 📄 [submission_08_prompt_ladder.md](submissions/submission_08_prompt_ladder.md) | N/A (Prompt Engineering Asset) | Built 6-run prompt ladder (V0 weak baseline + 5 single-layer iterations), documented 4 evaluation notes per step, identified honest PyTorch over-engineering failure (V3), and delivered final reusable prompt. |
 
 ---
 
@@ -73,6 +74,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **3-Beat Case Structure:** Problem, What I Did & Decided, What Came Of It creates clear, evidence-based portfolio cases.
   3. **Voice Control:** A strict voice card ("sharp, empirical, plain, direct, evidence-first") sets clear boundaries to edit out AI resume buzzwords.
 
+### 🔹 [Submission 8 — Phase: Setup & AI Fluency (FL-03 Prompt Ladder)](submissions/submission_08_prompt_ladder.md)
+* **What Was Built:** Built 6-run prompt ladder starting from a weak V0 baseline through 5 single-layer iterations (Context, Goal, Audience, Constraints, Format), documented 4 notes per run, identified an honest PyTorch over-engineering failure (V3), and delivered a reusable prompt asset.
+* **What I Learned:**
+  1. **Single-Layer Isolation:** Adding exactly one layer per prompt iteration reveals precisely which instruction drove a given output improvement.
+  2. **Constraints Over Persona:** Adding explicit negative constraints (no PyTorch, use scikit-learn, GroupKFold on client_id) is far more critical for code reliability than vague persona descriptions.
+  3. **Honest Evaluation:** Recognizing when an added layer makes output worse (V3 PyTorch over-engineering) prevents shipping overly complex solutions.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -87,7 +95,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_04_portfolio_sitemap.md          <-- Detailed Submission 4 breakdown & learnings
 │   ├── submission_05_proof_statement.md           <-- Detailed Submission 5 breakdown & learnings
 │   ├── submission_06_ml_task_framing.md            <-- Detailed Submission 6 breakdown & learnings
-│   └── submission_07_framed_cases.md               <-- Detailed Submission 7 breakdown & learnings
+│   ├── submission_07_framed_cases.md               <-- Detailed Submission 7 breakdown & learnings
+│   └── submission_08_prompt_ladder.md               <-- Detailed Submission 8 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
