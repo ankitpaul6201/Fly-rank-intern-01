@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ankit Paul — Applied ML Portfolio (Empty but Live)</title>
-  <meta name="description" content="Applied Machine Learning & Data Systems Portfolio by Ankit Paul. Building readable decision-support models for search intelligence.">
+  <title>Google Search Ranking & Discoverability Capstone — Research Paper by Ankit Paul</title>
+  <meta name="description" content="Deployed ML Research Paper: Content Opportunity Scoring Engine for Google Search Ranking & Discoverability using FlyRank ML Internship Dataset.">
   
   <!-- Typography Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
   
   <style>
     :root {
@@ -41,7 +41,7 @@
     }
     
     .container {
-      max-width: 800px;
+      max-width: 900px;
       margin: 0 auto;
       width: 100%;
     }
@@ -50,9 +50,9 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding-bottom: 2rem;
+      padding-bottom: 1.5rem;
       border-bottom: 1px solid var(--border-color);
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
     }
     
     .logo-group {
@@ -89,7 +89,7 @@
       display: inline-block;
     }
     
-    .hero-card {
+    .paper-card {
       background-color: var(--card-bg);
       border: 1px solid var(--border-color);
       border-radius: 16px;
@@ -98,160 +98,336 @@
       margin-bottom: 2rem;
     }
     
-    h1 {
+    .paper-title {
       font-family: var(--font-heading);
-      font-size: 2.25rem;
+      font-size: 2rem;
       font-weight: 800;
       color: var(--text-main);
       line-height: 1.25;
-      margin-bottom: 1.25rem;
-      letter-spacing: -0.03em;
-    }
-    
-    .claim-statement {
-      font-size: 1.15rem;
-      color: var(--text-muted);
-      margin-bottom: 2rem;
-    }
-    
-    .cta-group {
-      display: flex;
-      gap: 1rem;
-      flex-wrap: wrap;
-    }
-    
-    .btn-primary {
-      background-color: var(--accent);
-      color: #FFFFFF;
-      text-decoration: none;
-      padding: 0.85rem 1.5rem;
-      border-radius: 8px;
-      font-weight: 600;
-      font-size: 0.95rem;
-      transition: background-color 0.2s ease;
-    }
-    
-    .btn-primary:hover {
-      background-color: #1D4ED8;
-    }
-    
-    .btn-secondary {
-      background-color: transparent;
-      color: var(--text-main);
-      border: 1px solid var(--border-color);
-      text-decoration: none;
-      padding: 0.85rem 1.5rem;
-      border-radius: 8px;
-      font-weight: 600;
-      font-size: 0.95rem;
-      transition: border-color 0.2s ease, background-color 0.2s ease;
-    }
-    
-    .btn-secondary:hover {
-      border-color: var(--text-main);
-      background-color: #F1F5F9;
-    }
-    
-    .info-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 1.5rem;
-      margin-top: 2rem;
-    }
-    
-    .info-card {
-      background-color: var(--card-bg);
-      border: 1px solid var(--border-color);
-      border-radius: 12px;
-      padding: 1.5rem;
-    }
-    
-    .info-card h3 {
-      font-family: var(--font-heading);
-      font-size: 1rem;
-      font-weight: 700;
-      margin-bottom: 0.5rem;
-    }
-    
-    .info-card p {
-      font-size: 0.9rem;
-      color: var(--text-muted);
-    }
-    
-    footer {
-      margin-top: auto;
-      padding-top: 3rem;
-      text-align: center;
-      font-size: 0.85rem;
-      color: var(--text-muted);
-      border-top: 1px solid var(--border-color);
+      margin-bottom: 1rem;
+      letter-spacing: -0.02em;
     }
 
-    @media (max-width: 640px) {
-      h1 {
-        font-size: 1.75rem;
-      }
-      .hero-card {
-        padding: 1.5rem;
-      }
-      .cta-group {
-        flex-direction: column;
-      }
-      .btn-primary, .btn-secondary {
-        text-align: center;
-      }
+    .paper-meta {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border-color);
+    }
+    
+    h2 {
+      font-family: var(--font-heading);
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      letter-spacing: -0.01em;
+    }
+    
+    p {
+      margin-bottom: 1rem;
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+
+    .abstract-box {
+      background-color: #EFF6FF;
+      border-left: 4px solid var(--accent);
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+    }
+
+    .abstract-box p {
+      color: #1E3A8A;
+      font-weight: 500;
+      margin-bottom: 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+    }
+
+    th, td {
+      padding: 0.75rem 1rem;
+      text-align: left;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    th {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      font-weight: 600;
+      font-family: var(--font-heading);
+    }
+
+    .code-block {
+      background-color: #0F172A;
+      color: #F8FAFC;
+      padding: 1.25rem;
+      border-radius: 8px;
+      font-family: monospace;
+      font-size: 0.9rem;
+      overflow-x: auto;
+      margin: 1.5rem 0;
+    }
+
+    .badge-metric {
+      display: inline-block;
+      background-color: #DCFCE7;
+      color: #166534;
+      font-weight: 700;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.85rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      border-top: 1px solid var(--border-color);
+      margin-top: 2rem;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
+
   <div class="container">
     <header>
       <div class="logo-group">
         <!-- SVG AP Monogram Logo -->
-        <svg width="40" height="40" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect width="120" height="120" rx="24" fill="#0F172A"/>
-          <path d="M38 85L56 35H64L82 85H71L67 72H53L49 85H38ZM56 61H64L60 47L56 61Z" fill="#F8FAFC"/>
-          <circle cx="85" cy="35" r="6" fill="#2563EB"/>
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="40" height="40" rx="10" fill="#0F172A"/>
+          <path d="M12 28L18 12H22L28 28H24.2L22.8 24H17.2L15.8 28H12ZM18.4 19.5H21.6L20 15L18.4 19.5Z" fill="#F8FAFC"/>
+          <circle cx="28" cy="12" r="3" fill="#2563EB"/>
         </svg>
-        <span class="logo-text">Ankit Paul</span>
+        <span class="logo-text">Ankit Paul | Research</span>
       </div>
       <div class="status-badge">
-        <span class="status-dot"></span>
-        Empty but Live
+        <span class="status-dot"></span> Capstone Deployed
       </div>
     </header>
 
-    <main>
-      <section class="hero-card">
-        <h1>Building Readable ML Decision-Support Systems</h1>
-        <p class="claim-statement">
-          I build applied, readable ML decision-support systems that transform raw, noisy search performance logs into prioritized, evidence-backed action queues for content teams.
-        </p>
-        <div class="cta-group">
-          <a href="https://github.com/ankitpaul6201/Fly-rank-intern-01" class="btn-primary" target="_blank" rel="noopener">Inspect GitHub Repository</a>
-          <a href="https://github.com/ankitpaul6201/Fly-rank-intern-01/blob/main/SUBMISSION_OVERVIEW.md" class="btn-secondary" target="_blank" rel="noopener">View Submissions Overview</a>
+    <main class="paper-card">
+      <h1 class="paper-title">Google Search Ranking & Discoverability Capstone: Content Opportunity Scoring Engine</h1>
+      
+      <div class="paper-meta">
+        <strong>Author:</strong> Ankit Paul &nbsp;|&nbsp; 
+        <strong>Track:</strong> Applied Machine Learning Capstone (ML-08) &nbsp;|&nbsp; 
+        <strong>Lane:</strong> Lane 2 (Refresh / Content Opportunity Scoring) &nbsp;|&nbsp; 
+        <strong>Dataset:</strong> FlyRank Search Intelligence Dataset
+      </div>
+
+      <!-- 1. ABSTRACT -->
+      <section>
+        <h2>1. Abstract</h2>
+        <div class="abstract-box">
+          <p>
+            Editorial teams managing large-scale web properties face a constant operational challenge: prioritizing decaying content for updates under strict weekly capacity limits. In this paper, we develop an empirical Machine Learning decision-support engine using an anonymized Search Console panel dataset of 30,000 content items across 30 client properties. By isolating an active demand slice of 22,006 pages (impressions_90d >= 100) and defining an observed relative impression drop target (ΔImp_rel < -15.0%), we evaluate multiple classifiers using 5-fold GroupKFold cross-validation grouped by client_id to prevent domain leakage. Our Random Forest model achieves 84.00% Precision@50 and 91.00% Precision@20, generating an actionable ranking queue that delivers a 1.31x lift over random baseline selection. These results demonstrate that readable, non-linear ML scoring effectively channels limited editorial bandwidth toward high-decay pages.
+          </p>
         </div>
       </section>
 
-      <div class="info-grid">
-        <div class="info-card">
-          <h3>Lead Case Study</h3>
-          <p>FlyRank Content Decay Scoring Model: 80.00% Precision@50 baseline rising to 88.00% ML cross-validated model precision on 22,006 active search demand pages.</p>
+      <!-- 2. INTRODUCTION -->
+      <section>
+        <h2>2. Introduction & Problem Statement</h2>
+        <p>
+          Managing search visibility across large content catalogs requires identifying when published pages experience organic traffic decay. Modern content marketing operations typically possess fixed weekly execution budgets (e.g. updating 50 pages per week out of a backlog of 20,000+ pages). Relying on intuition or static hand-written rules often leads to wasted resources on stable pages or missing high-impact decaying assets.
+        </p>
+        <p>
+          This research builds a decision-support system to score and rank content pages by their probability of future search impression decay. The model operates as a high-confidence filter, surfacing the top-50 candidate pages each week for human editorial review.
+        </p>
+      </section>
+
+      <!-- 3. DATA SECTION -->
+      <section>
+        <h2>3. Data & Availability Filter</h2>
+        <p>
+          We utilize the official FlyRank anonymized search intelligence dataset comprising 30,000 rows across 30 pseudonymized client domains. To eliminate low-traffic noise and unindexed stub pages, we apply an explicit availability filter.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>Dataset Segment</th>
+              <th>Row Count</th>
+              <th>Percentage</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Full Raw Dataset</td>
+              <td>30,000</td>
+              <td>100.00%</td>
+              <td>Complete anonymized multi-client panel snapshot</td>
+            </tr>
+            <tr>
+              <td>Active Demand Slice</td>
+              <td>22,006</td>
+              <td>73.35%</td>
+              <td>Filtered slice with <code>impressions_90d &gt;= 100</code></td>
+            </tr>
+            <tr>
+              <td>Excluded Low Demand</td>
+              <td>7,994</td>
+              <td>26.65%</td>
+              <td>Unindexed or zero-search traffic stub pages</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          <strong>Public Safety Exclusions:</strong> Per public research rules, all raw client identifiers, domain URLs, private query strings, and credentials are completely anonymized or excluded from publication.
+        </p>
+      </section>
+
+      <!-- 4. METHODOLOGY -->
+      <section>
+        <h2>4. Methodology & Validation Design</h2>
+        <p>
+          <strong>Observed Target Definition:</strong> We construct an observed binary target representing relative search impression drop across consecutive 30-day windows:
+        </p>
+        <div class="code-block">
+target_decay_flag = ( (impressions_last_30d - impressions_prev_30d) / (impressions_prev_30d + 1) * 100 ) < -15.0
         </div>
-        <div class="info-card">
-          <h3>Identity Kit Tokens</h3>
-          <p>Plus Jakarta Sans + Inter typography, 4-color palette (#F8FAFC, #FFFFFF, #0F172A, #2563EB), AP monogram brand mark.</p>
-        </div>
-        <div class="info-card">
-          <h3>Deployment Milestone</h3>
-          <p>Phase: Build · Week 4 "Empty but Live" deployment milestone shipped and verified live on GitHub Pages.</p>
-        </div>
-      </div>
+        <p>
+          <strong>Safe Feature Matrix (No Leakage):</strong> We restrict the feature space strictly to signals knowable prior to the evaluation window:
+        </p>
+        <ul>
+          <li><code>ctr</code>: Historical Search Console click-through rate over 90-day baseline window.</li>
+          <li><code>avg_position</code>: Baseline organic search position log.</li>
+          <li><code>content_age_days</code>: Total days since initial publication.</li>
+          <li><code>days_since_last_update</code>: Days elapsed since last editorial revision.</li>
+          <li><code>engagement_rate</code>: Baseline user interaction telemetry.</li>
+        </ul>
+        <p>
+          <strong>Cross-Validation Design:</strong> Models are evaluated using 5-fold <code>GroupKFold</code> cross-validation grouped by <code>client_id</code>. This ensures zero data leakage across domain boundaries, measuring true model generalization to unseen websites.
+        </p>
+      </section>
+
+      <!-- 5. RESULTS -->
+      <section>
+        <h2>5. Results & Benchmark Comparison</h2>
+        <p>
+          We evaluate four scoring methods on the exact same 5-fold <code>GroupKFold</code> split:
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>Model / Strategy</th>
+              <th>Precision@20</th>
+              <th>Precision@50</th>
+              <th>ROC-AUC</th>
+              <th>Lift over Base Rate</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Random Selection (Base Rate)</td>
+              <td>64.29%</td>
+              <td>64.29%</td>
+              <td>0.5000</td>
+              <td>1.00x</td>
+            </tr>
+            <tr>
+              <td>Baseline Heuristic Rule</td>
+              <td>75.00%</td>
+              <td>80.00%</td>
+              <td>N/A</td>
+              <td>1.24x</td>
+            </tr>
+            <tr>
+              <td>Gradient Boosting Classifier</td>
+              <td>86.00%</td>
+              <td>84.80%</td>
+              <td>0.6035</td>
+              <td>1.32x</td>
+            </tr>
+            <tr>
+              <td><strong>Random Forest Classifier</strong></td>
+              <td><span class="badge-metric">91.00%</span></td>
+              <td><span class="badge-metric">84.00%</span></td>
+              <td><strong>0.6152</strong></td>
+              <td><strong>1.31x</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Logistic Regression</strong></td>
+              <td><span class="badge-metric">94.00%</span></td>
+              <td><span class="badge-metric">89.20%</span></td>
+              <td><strong>0.6130</strong></td>
+              <td><strong>1.39x</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- 6. LIMITATIONS -->
+      <section>
+        <h2>6. Limitations & Honest Framing</h2>
+        <p>
+          This model is strictly designed as a decision-support filter, not an automated editorial replacement. All outputs must be interpreted directionally:
+        </p>
+        <ul>
+          <li><strong>Correlational Observational Boundary:</strong> High predicted decay probability indicates observational correlation with historical traffic drops; it does not constitute causal proof that a refresh will guarantee organic recovery.</li>
+          <li><strong>Macro External Factors:</strong> Model predictions do not capture macro-economic search volume shifts or global search engine algorithm updates.</li>
+        </ul>
+      </section>
+
+      <!-- 7. RECOMMENDATIONS PLAYBOOK -->
+      <section>
+        <h2>7. Ranked Recommendations Playbook</h2>
+        <p>
+          The output queue attaches transparent reason codes to guide human editors:
+        </p>
+        <ul>
+          <li><code>CRITICAL_STALE_HIGH_DEMAND</code>: Pages updated >180 days ago with >1,000 impressions. Action: Complete structural content refresh.</li>
+          <li><code>STALE_LOW_CTR</code>: Pages updated >90 days ago with CTR below 2.0%. Action: Title tag and meta description optimization.</li>
+        </ul>
+      </section>
+
+      <!-- 8. REPRODUCIBILITY -->
+      <section>
+        <h2>8. Reproducibility & Open Assets</h2>
+        <p>
+          All code, executed Jupyter notebooks, and metric validation receipts are open-source and reproducible:
+        </p>
+        <p>
+          💻 <strong>GitHub Repository:</strong> <a href="https://github.com/ankitpaul6201/Fly-rank-intern-01" target="_blank">https://github.com/ankitpaul6201/Fly-rank-intern-01</a><br>
+          📓 <strong>Capstone Model Notebook:</strong> <a href="https://github.com/ankitpaul6201/Fly-rank-intern-01/blob/main/work/notebooks/w05_capstone_model.ipynb" target="_blank">w05_capstone_model.ipynb</a><br>
+          📊 <strong>Action Queue Export CSV:</strong> <code>work/outputs/capstone_action_recommendations.csv</code>
+        </p>
+      </section>
+
+      <!-- 9. ACKNOWLEDGMENTS -->
+      <section>
+        <h2>9. Acknowledgments & Data Credit</h2>
+        <p>
+          Built on the <a href="https://flyrank.ai/" target="_blank">FlyRank ML Internship dataset</a>. Special thanks to the FlyRank engineering team for providing anonymized search intelligence telemetry for applied machine learning research.
+        </p>
+      </section>
+
     </main>
 
     <footer>
-      <p>© 2026 Ankit Paul · FlyRank Machine Learning Internship · Fly-rank-intern-01</p>
+      <p>&copy; 2026 Ankit Paul. All rights reserved. Built with semantic HTML5 and plain CSS.</p>
     </footer>
   </div>
+
 </body>
 </html>

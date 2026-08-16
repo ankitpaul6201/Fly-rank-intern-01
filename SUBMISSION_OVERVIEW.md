@@ -26,6 +26,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **16** | **Phase: Build & AI Fluency (FL-08 Choose Your Stack with AI)** | 📄 [submission_16_stack_rationale.md](submissions/submission_16_stack_rationale.md) | N/A (Architecture & Rationale) | Evaluated 3 stack options under 4 real constraints, selected Static HTML5/CSS3 on GitHub Pages, rejected React/Next.js over-engineering, and confirmed zero backend needed ("not yet"). |
 | **17** | **Phase: Build & AI Fluency (FL-04 Ship an Automation Workflow v2)** | 📄 [submission_17_automation_workflow.md](submissions/submission_17_automation_workflow.md) | N/A (Automation Architecture & Runs) | Built 4-step automated data contract audit pipeline with defined handoffs using NotebookLM and Claude, ran 5 real dataset benchmarks saving 2.0 hours net, and cataloged failure modes. |
 | **18** | **Phase: Build & AI Fluency (FL-05 Agent Concepts & MCP Basics)** | 📄 [submission_18_mcp_agent_concepts.md](submissions/submission_18_mcp_agent_concepts.md) | N/A (Technical Explainer) | Authored 780-word technical explainer on Workflows vs Agents and MCP primitives, demonstrated 3 live local MCP tool calls, and designed an autonomous retry loop agent upgrade for FL-04. |
+| **19** | **Phase: Capstone (ML-08 Google Search Ranking & Discoverability Capstone)** | 📄 [submission_19_capstone_project.md](submissions/submission_19_capstone_project.md) | [`work/notebooks/w05_capstone_model.ipynb`](work/notebooks/w05_capstone_model.ipynb) | Built Lane 2 Refresh Opportunity Scoring Engine, evaluated models with GroupKFold (84.00% P@50 / 91.00% P@20), deployed research paper to GitHub Pages, and wrote `submission/paper_url.txt`. |
 
 ---
 
@@ -152,14 +153,19 @@ Welcome to the **Submissions Overview** index for this repository. This director
 * **What I Learned:**
   1. **Defined Handoffs Drive System Efficiency:** Structuring explicit handoffs between ingestion, leakage auditing, synthesis, and formatting prevents LLMs from skipping mandatory checks.
   2. **Quantifiable ROI:** Automating repetitive data contract auditing reduced dataset review times from 35 minutes down to 3 minutes, yielding 2.0 net hours saved across 5 runs.
-  3. **Human Inspection Protocol:** Identifying false positive traps (e.g. non-indexed stub pages) defines where human review remains essential in automated AI pipelines.
-
-### 🔹 [Submission 18 — Phase: Build & AI Fluency (FL-05 Agent Concepts & MCP Basics)](submissions/submission_18_mcp_agent_concepts.md)
+  3. **Human Inspect### 🔹 [Submission 18 — Phase: Build & AI Fluency (FL-05 Agent Concepts & MCP Basics)](submissions/submission_18_mcp_agent_concepts.md)
 * **What Was Built:** Authored a 780-word technical explainer on Workflows vs Agents and MCP primitives, demonstrated 3 live local MCP tool calls (file inspection, python execution, git push), and designed an autonomous agent upgrade for FL-04.
 * **What I Learned:**
   1. **Control Path Ownership:** Workflows rely on hardcoded code paths; agents rely on LLM-driven ReAct loops that dynamically select tools and retry upon errors.
   2. **MCP Standard:** Model Context Protocol standardizes tool, resource, and prompt primitives across client applications like a universal USB-C port.
   3. **Practical System Design:** Most applied engineering tasks require deterministic, predictable workflows rather than complex, unpredictable autonomous agent loops.
+
+### 🔹 [Submission 19 — Phase: Capstone (ML-08 Google Search Ranking & Discoverability Capstone)](submissions/submission_19_capstone_project.md)
+* **What Was Built:** Completed Lane 2 Content Refresh Opportunity Scoring Engine, executed capstone notebook `work/notebooks/w05_capstone_model.ipynb` with 5-fold `GroupKFold` cross-validation (84.00% P@50 / 91.00% P@20), deployed research paper to GitHub Pages at `index.html`, and created mandatory URL pointer file `submission/paper_url.txt`.
+* **What I Learned:**
+  1. **Empirical Precision Lift:** Logistic Regression and Random Forest models deliver 84.00%–89.20% Precision@50 (1.31x to 1.39x lift over base rate), proving machine learning decision-support value for capacity-constrained teams.
+  2. **Client-Holdout Generalization:** `GroupKFold` validation grouped by `client_id` prevents data leakage and proves model robustness across unseen web domains.
+  3. **End-to-End Capstone Delivery:** Packaging ML models into deployed research papers creates accessible technical communication assets for public evaluation.
 
 ---
 
@@ -168,7 +174,9 @@ Welcome to the **Submissions Overview** index for this repository. This director
 ```text
 flyrank-ml-internship-starter/
 ├── SUBMISSION_OVERVIEW.md                          <-- You are here (Submissions index & summary)
-├── index.html                                      <-- Live Website: Empty but live milestone page
+├── index.html                                      <-- Live Website: Deployed Capstone Research Paper
+├── submission/
+│   └── paper_url.txt                               <-- Mandatory Pointer: Live Deployed Research Paper URL
 ├── submissions/
 │   ├── submission_01_setup_notebooks.md            <-- Detailed Submission 1 breakdown & learnings
 │   ├── submission_02_week1_research_question.md    <-- Detailed Submission 2 breakdown & learnings
@@ -187,17 +195,22 @@ flyrank-ml-internship-starter/
 │   ├── submission_15_empty_live.md                  <-- Detailed Submission 15 breakdown & learnings
 │   ├── submission_16_stack_rationale.md             <-- Detailed Submission 16 breakdown & learnings
 │   ├── submission_17_automation_workflow.md          <-- Detailed Submission 17 breakdown & learnings
-│   └── submission_18_mcp_agent_concepts.md          <-- Detailed Submission 18 breakdown & learnings
+│   ├── submission_18_mcp_agent_concepts.md          <-- Detailed Submission 18 breakdown & learnings
+│   └── submission_19_capstone_project.md            <-- Detailed Submission 19 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
 └── work/
     ├── outputs/
     │   ├── baseline_action_score.csv               <-- Output: Ranked baseline action queue CSV
-    │   └── baseline_metrics.json                   <-- Metric receipt JSON (P@50: 80.00%)
+    │   ├── baseline_metrics.json                   <-- Metric receipt JSON (P@50: 80.00%)
+    │   ├── capstone_action_recommendations.csv     <-- Capstone Queue CSV (84.00% P@50)
+    │   └── capstone_metrics.json                   <-- Capstone Metric Receipt JSON
     └── notebooks/
         ├── w01_research_question.ipynb             <-- Executed: Week 1 framing & live dataset metrics
         ├── w02_ml_task_framing.ipynb               <-- Executed: Week 2 ML task framing & target definition
         ├── w03_data_contract.ipynb                 <-- Executed: Week 3 Search Intelligence Data Contract
-        └── w04_baseline_score.ipynb                <-- Executed: Week 4 Baseline Action Score & Signal Audit
+        ├── w04_baseline_score.ipynb                <-- Executed: Week 4 Baseline Action Score & Signal Audit
+        ├── w05_capstone_model.ipynb                <-- Executed: Capstone ML Model & GroupKFold Validation
+        └── capstone_refresh_opportunity.ipynb      <-- Executed: Capstone Refresh Opportunity Notebook
 ```

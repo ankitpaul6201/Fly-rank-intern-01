@@ -1,0 +1,19 @@
+{
+  "total_raw_rows": 30000,
+  "active_demand_rows": 22006,
+  "base_rate": 0.6429155684813233,
+  "baseline_rule_p50": 0.8,
+  "random_forest_p20": 0.9099999999999999,
+  "random_forest_p50": 0.8400000000000001,
+  "random_forest_auc": 0.6151646399157567,
+  "logistic_regression_p50": 0.892,
+  "lift_over_base_rate": 1.3065479219677694,
+  "lift_over_baseline_rule": 1.05,
+  "feature_importances": {
+    "ctr": 0.14287814765155982,
+    "avg_position": 0.2807620792342054,
+    "content_age_days": 0.4059398113439142,
+    "days_since_last_update": 0.10899712023130614,
+    "engagement_rate": 0.061422841539014436
+  }
+}
