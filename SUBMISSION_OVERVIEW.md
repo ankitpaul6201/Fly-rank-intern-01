@@ -21,6 +21,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **11** | **Phase: Foundations & AI Fluency (FL-04 Build Your Identity Kit)** | 📄 [submission_11_identity_kit.md](submissions/submission_11_identity_kit.md) | N/A (Design & Brand Asset) | Defined typography pairing (Plus Jakarta Sans + Inter), 4-color palette (#F8FAFC, #FFFFFF, #0F172A, #2563EB), built SVG AP monogram logo, and configured 2-line style note in Claude Project. |
 | **12** | **Phase: Foundations & AI Fluency (FL-05 Curate Your Images)** | 📄 [submission_12_curate_images.md](submissions/submission_12_curate_images.md) | N/A (Visual Asset Curation) | Mapped portfolio image inventory, prioritized real captures/logs over AI stand-ins, and documented discernment rejection log cutting 3D cyber-brain fluff and fake Midjourney dashboards. |
 | **13** | **Phase: Foundations & AI Fluency (FL-06 Map Content & CTAs)** | 📄 [submission_13_content_map.md](submissions/submission_13_content_map.md) | N/A (Content & Funnel Strategy) | Formulated sharp one-line claim, mapped section-by-section layout with named CTAs leading with FlyRank 88% P@50 case, and compiled honest list of proof assets still to gather. |
+| **14** | **Phase: Build (ML-07 Baseline Action Score & Signal Audit)** | 📄 [submission_14_baseline_score.md](submissions/submission_14_baseline_score.md) | [`work/notebooks/w04_baseline_score.ipynb`](work/notebooks/w04_baseline_score.ipynb) | Audited 2 core signals (staleness, CTR deficit), encoded transparent baseline scoring rule with reason codes, written ranked queue to CSV, and achieved 80.00% Precision@50 (1.24x lift). |
 
 ---
 
@@ -121,6 +122,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Leading with Highest Impact:** Featuring the FlyRank decay prediction model first establishes immediate empirical authority with technical hiring leads.
   3. **Unblocked Build Roadmap:** Cataloging upcoming proof assets (warehouse queries, capstone report PDF) ensures portfolio frontend development stays on schedule.
 
+### 🔹 [Submission 14 — Phase: Build (ML-07 Baseline Action Score & Signal Audit)](submissions/submission_14_baseline_score.md)
+* **What Was Built:** Completed executed notebook `work/notebooks/w04_baseline_score.ipynb`, audited 2 signals (`days_since_last_update` staleness and `ctr` deficit), encoded transparent baseline score formula with reason codes, exported queue CSV, and generated metric JSON receipt.
+* **What I Learned:**
+  1. **Readable Baseline Benchmark:** A simple 3-line heuristic rule achieved **80.00% Precision@50** (1.24x lift over base rate), providing a clear target for Week 5 ML models to beat.
+  2. **Empirical Signal Validation:** Grouping data into bucket tables with explicit `n` counts confirmed that staleness and CTR deficits directly correlate with search impression decay.
+  3. **Audit-Driven Refinement:** Auditing top-20 outputs revealed weak picks (non-indexed stub pages) that guide feature engineering for ML model training.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -141,13 +149,18 @@ flyrank-ml-internship-starter/
 │   ├── submission_10_data_contract.md               <-- Detailed Submission 10 breakdown & learnings
 │   ├── submission_11_identity_kit.md                <-- Detailed Submission 11 breakdown & learnings
 │   ├── submission_12_curate_images.md                <-- Detailed Submission 12 breakdown & learnings
-│   └── submission_13_content_map.md                 <-- Detailed Submission 13 breakdown & learnings
+│   ├── submission_13_content_map.md                 <-- Detailed Submission 13 breakdown & learnings
+│   └── submission_14_baseline_score.md              <-- Detailed Submission 14 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
 └── work/
+    ├── outputs/
+    │   ├── baseline_action_score.csv               <-- Output: Ranked baseline action queue CSV
+    │   └── baseline_metrics.json                   <-- Metric receipt JSON (P@50: 80.00%)
     └── notebooks/
         ├── w01_research_question.ipynb             <-- Executed: Week 1 framing & live dataset metrics
         ├── w02_ml_task_framing.ipynb               <-- Executed: Week 2 ML task framing & target definition
-        └── w03_data_contract.ipynb                 <-- Executed: Week 3 Search Intelligence Data Contract
+        ├── w03_data_contract.ipynb                 <-- Executed: Week 3 Search Intelligence Data Contract
+        └── w04_baseline_score.ipynb                <-- Executed: Week 4 Baseline Action Score & Signal Audit
 ```

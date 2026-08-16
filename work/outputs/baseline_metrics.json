@@ -1,0 +1,8 @@
+{
+  "total_raw_rows": 30000,
+  "active_demand_rows": 22006,
+  "base_rate": 0.6429155684813233,
+  "precision_at_20": 0.75,
+  "precision_at_50": 0.8,
+  "lift_over_base_rate": 1.2443313542550185
+}
