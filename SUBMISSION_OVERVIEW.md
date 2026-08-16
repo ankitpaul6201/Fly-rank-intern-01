@@ -19,6 +19,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **9** | **Phase: Foundations & AI Fluency (FL-02 Prompting Fundamentals v2)** | 📄 [submission_09_prompting_fundamentals.md](submissions/submission_09_prompting_fundamentals.md) | N/A (Prompt Engineering Log) | Applied 5 named techniques (Role, Context, Few-Shot, Format, Chain-of-Thought) to Data Contract audit task, conducted honest Claude vs ChatGPT comparison, and built reusable template asset. |
 | **10** | **Phase: Foundations (ML-04 Search Intelligence Data Contract)** | 📄 [submission_10_data_contract.md](submissions/submission_10_data_contract.md) | [`work/notebooks/w03_data_contract.ipynb`](work/notebooks/w03_data_contract.ipynb) | Wrote 5-part plain-words contract, ran 3 verification queries (grain uniqueness, row counts, IS TRUE availability), built 5-feature frame, and executed deliberate leakage trap (100% fake score vs 77.60% honest score). |
 | **11** | **Phase: Foundations & AI Fluency (FL-04 Build Your Identity Kit)** | 📄 [submission_11_identity_kit.md](submissions/submission_11_identity_kit.md) | N/A (Design & Brand Asset) | Defined typography pairing (Plus Jakarta Sans + Inter), 4-color palette (#F8FAFC, #FFFFFF, #0F172A, #2563EB), built SVG AP monogram logo, and configured 2-line style note in Claude Project. |
+| **12** | **Phase: Foundations & AI Fluency (FL-05 Curate Your Images)** | 📄 [submission_12_curate_images.md](submissions/submission_12_curate_images.md) | N/A (Visual Asset Curation) | Mapped portfolio image inventory, prioritized real captures/logs over AI stand-ins, and documented discernment rejection log cutting 3D cyber-brain fluff and fake Midjourney dashboards. |
 
 ---
 
@@ -105,6 +106,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Data-Dense Frame:** A quiet 4-color palette ensures code blocks and Precision@50 metrics stand out as the primary visual focus.
   3. **AI Style Guardrail:** Adding a 2-line style note to standing instructions forces AI coding assistants to generate UI components matching the exact brand identity.
 
+### 🔹 [Submission 12 — Phase: Foundations & AI Fluency (FL-05 Curate Your Images)](submissions/submission_12_curate_images.md)
+* **What Was Built:** Mapped portfolio image inventory, prioritized real captures/logs over AI stand-ins, and documented discernment rejection log cutting 3D cyber-brain fluff and fake Midjourney dashboards.
+* **What I Learned:**
+  1. **Proof Over Polish:** Real terminal logs and Precision@50 evaluation charts build authentic technical credibility over synthetic AI illustrations.
+  2. **Connective Tissue Alignment:** Non-photo visual elements (diagrams, icons) inherit identity kit hex codes (#F8FAFC, #2563EB) for systemic cohesion.
+  3. **Discernment Discipline:** Demonstrating engineering maturity means intentionally cutting flashy AI artwork that competes with project evidence.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -123,7 +131,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_08_prompt_ladder.md               <-- Detailed Submission 8 breakdown & learnings
 │   ├── submission_09_prompting_fundamentals.md      <-- Detailed Submission 9 breakdown & learnings
 │   ├── submission_10_data_contract.md               <-- Detailed Submission 10 breakdown & learnings
-│   └── submission_11_identity_kit.md                <-- Detailed Submission 11 breakdown & learnings
+│   ├── submission_11_identity_kit.md                <-- Detailed Submission 11 breakdown & learnings
+│   └── submission_12_curate_images.md                <-- Detailed Submission 12 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
