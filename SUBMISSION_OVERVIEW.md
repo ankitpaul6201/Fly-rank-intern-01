@@ -23,6 +23,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **13** | **Phase: Foundations & AI Fluency (FL-06 Map Content & CTAs)** | 📄 [submission_13_content_map.md](submissions/submission_13_content_map.md) | N/A (Content & Funnel Strategy) | Formulated sharp one-line claim, mapped section-by-section layout with named CTAs leading with FlyRank 88% P@50 case, and compiled honest list of proof assets still to gather. |
 | **14** | **Phase: Build (ML-07 Baseline Action Score & Signal Audit)** | 📄 [submission_14_baseline_score.md](submissions/submission_14_baseline_score.md) | [`work/notebooks/w04_baseline_score.ipynb`](work/notebooks/w04_baseline_score.ipynb) | Audited 2 core signals (staleness, CTR deficit), encoded transparent baseline scoring rule with reason codes, written ranked queue to CSV, and achieved 80.00% Precision@50 (1.24x lift). |
 | **15** | **Phase: Build & AI Fluency (FL-07 Empty but Live: Ship a Blank Page)** | 📄 [submission_15_empty_live.md](submissions/submission_15_empty_live.md) | [`index.html`](index.html) | Created HTML5/CSS3 structure implementing identity kit design system, deployed live to GitHub Pages URL, verified multi-device access, and loaded assets into Claude Project. |
+| **16** | **Phase: Build & AI Fluency (FL-08 Choose Your Stack with AI)** | 📄 [submission_16_stack_rationale.md](submissions/submission_16_stack_rationale.md) | N/A (Architecture & Rationale) | Evaluated 3 stack options under 4 real constraints, selected Static HTML5/CSS3 on GitHub Pages, rejected React/Next.js over-engineering, and confirmed zero backend needed ("not yet"). |
 
 ---
 
@@ -137,6 +138,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Multi-Device Accessibility:** Testing layouts on mobile viewports ensures responsive text scaling and eliminates overflow bugs.
   3. **Context Consolidation:** Consolidating design tokens, case studies, and content maps into Claude Project instructions allows AI assistants to generate UI components matching the exact visual brand.
 
+### 🔹 [Submission 16 — Phase: Build & AI Fluency (FL-08 Choose Your Stack with AI)](submissions/submission_16_stack_rationale.md)
+* **What Was Built:** Evaluated three stack options under four real constraints, selected Static HTML5/CSS3 on GitHub Pages, rejected React/Vite and Next.js over-engineering, and confirmed zero backend required ("not yet").
+* **What I Learned:**
+  1. **Stack Fluency:** Choosing build tools based on real constraints prevents falling into framework over-engineering traps.
+  2. **Zero Maintenance Debt:** Plain HTML5/CSS3 carries zero npm package vulnerabilities and zero build script maintenance.
+  3. **Honest Backend Decision:** Recognizing that client-side third-party widgets fulfill all interactive booking needs keeps build time focused on case study evidence.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -160,7 +168,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_12_curate_images.md                <-- Detailed Submission 12 breakdown & learnings
 │   ├── submission_13_content_map.md                 <-- Detailed Submission 13 breakdown & learnings
 │   ├── submission_14_baseline_score.md              <-- Detailed Submission 14 breakdown & learnings
-│   └── submission_15_empty_live.md                  <-- Detailed Submission 15 breakdown & learnings
+│   ├── submission_15_empty_live.md                  <-- Detailed Submission 15 breakdown & learnings
+│   └── submission_16_stack_rationale.md             <-- Detailed Submission 16 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
