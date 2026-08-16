@@ -18,6 +18,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **8** | **Phase: Setup & AI Fluency (FL-03 Prompt Ladder)** | 📄 [submission_08_prompt_ladder.md](submissions/submission_08_prompt_ladder.md) | N/A (Prompt Engineering Asset) | Built 6-run prompt ladder (V0 weak baseline + 5 single-layer iterations), documented 4 evaluation notes per step, identified honest PyTorch over-engineering failure (V3), and delivered final reusable prompt. |
 | **9** | **Phase: Foundations & AI Fluency (FL-02 Prompting Fundamentals v2)** | 📄 [submission_09_prompting_fundamentals.md](submissions/submission_09_prompting_fundamentals.md) | N/A (Prompt Engineering Log) | Applied 5 named techniques (Role, Context, Few-Shot, Format, Chain-of-Thought) to Data Contract audit task, conducted honest Claude vs ChatGPT comparison, and built reusable template asset. |
 | **10** | **Phase: Foundations (ML-04 Search Intelligence Data Contract)** | 📄 [submission_10_data_contract.md](submissions/submission_10_data_contract.md) | [`work/notebooks/w03_data_contract.ipynb`](work/notebooks/w03_data_contract.ipynb) | Wrote 5-part plain-words contract, ran 3 verification queries (grain uniqueness, row counts, IS TRUE availability), built 5-feature frame, and executed deliberate leakage trap (100% fake score vs 77.60% honest score). |
+| **11** | **Phase: Foundations & AI Fluency (FL-04 Build Your Identity Kit)** | 📄 [submission_11_identity_kit.md](submissions/submission_11_identity_kit.md) | N/A (Design & Brand Asset) | Defined typography pairing (Plus Jakarta Sans + Inter), 4-color palette (#F8FAFC, #FFFFFF, #0F172A, #2563EB), built SVG AP monogram logo, and configured 2-line style note in Claude Project. |
 
 ---
 
@@ -97,6 +98,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Availability Filter Discipline:** Filtering demand with `impressions_90d >= 100 IS TRUE` isolates active pages (22,006 rows / 73.35%) and removes zero-traffic noise.
   3. **Leakage Trap Proof:** Intentionally leaking `trend_pct` produced a fake 100.00% Precision@50 score; removing it preserved honest model performance (77.60%).
 
+### 🔹 [Submission 11 — Phase: Foundations & AI Fluency (FL-04 Build Your Identity Kit)](submissions/submission_11_identity_kit.md)
+* **What Was Built:** Defined typography pairing (Plus Jakarta Sans + Inter), 4-color palette (#F8FAFC, #FFFFFF, #0F172A, #2563EB), built SVG AP monogram logo, and configured 2-line style note in Claude Project.
+* **What I Learned:**
+  1. **Decide Once Discipline:** Fixing typography and color hex codes upfront prevents visual fragmentation across portfolio pages.
+  2. **Data-Dense Frame:** A quiet 4-color palette ensures code blocks and Precision@50 metrics stand out as the primary visual focus.
+  3. **AI Style Guardrail:** Adding a 2-line style note to standing instructions forces AI coding assistants to generate UI components matching the exact brand identity.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -114,7 +122,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_07_framed_cases.md               <-- Detailed Submission 7 breakdown & learnings
 │   ├── submission_08_prompt_ladder.md               <-- Detailed Submission 8 breakdown & learnings
 │   ├── submission_09_prompting_fundamentals.md      <-- Detailed Submission 9 breakdown & learnings
-│   └── submission_10_data_contract.md               <-- Detailed Submission 10 breakdown & learnings
+│   ├── submission_10_data_contract.md               <-- Detailed Submission 10 breakdown & learnings
+│   └── submission_11_identity_kit.md                <-- Detailed Submission 11 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
