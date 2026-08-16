@@ -25,6 +25,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **15** | **Phase: Build & AI Fluency (FL-07 Empty but Live: Ship a Blank Page)** | 📄 [submission_15_empty_live.md](submissions/submission_15_empty_live.md) | [`index.html`](index.html) | Created HTML5/CSS3 structure implementing identity kit design system, deployed live to GitHub Pages URL, verified multi-device access, and loaded assets into Claude Project. |
 | **16** | **Phase: Build & AI Fluency (FL-08 Choose Your Stack with AI)** | 📄 [submission_16_stack_rationale.md](submissions/submission_16_stack_rationale.md) | N/A (Architecture & Rationale) | Evaluated 3 stack options under 4 real constraints, selected Static HTML5/CSS3 on GitHub Pages, rejected React/Next.js over-engineering, and confirmed zero backend needed ("not yet"). |
 | **17** | **Phase: Build & AI Fluency (FL-04 Ship an Automation Workflow v2)** | 📄 [submission_17_automation_workflow.md](submissions/submission_17_automation_workflow.md) | N/A (Automation Architecture & Runs) | Built 4-step automated data contract audit pipeline with defined handoffs using NotebookLM and Claude, ran 5 real dataset benchmarks saving 2.0 hours net, and cataloged failure modes. |
+| **18** | **Phase: Build & AI Fluency (FL-05 Agent Concepts & MCP Basics)** | 📄 [submission_18_mcp_agent_concepts.md](submissions/submission_18_mcp_agent_concepts.md) | N/A (Technical Explainer) | Authored 780-word technical explainer on Workflows vs Agents and MCP primitives, demonstrated 3 live local MCP tool calls, and designed an autonomous retry loop agent upgrade for FL-04. |
 
 ---
 
@@ -153,6 +154,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Quantifiable ROI:** Automating repetitive data contract auditing reduced dataset review times from 35 minutes down to 3 minutes, yielding 2.0 net hours saved across 5 runs.
   3. **Human Inspection Protocol:** Identifying false positive traps (e.g. non-indexed stub pages) defines where human review remains essential in automated AI pipelines.
 
+### 🔹 [Submission 18 — Phase: Build & AI Fluency (FL-05 Agent Concepts & MCP Basics)](submissions/submission_18_mcp_agent_concepts.md)
+* **What Was Built:** Authored a 780-word technical explainer on Workflows vs Agents and MCP primitives, demonstrated 3 live local MCP tool calls (file inspection, python execution, git push), and designed an autonomous agent upgrade for FL-04.
+* **What I Learned:**
+  1. **Control Path Ownership:** Workflows rely on hardcoded code paths; agents rely on LLM-driven ReAct loops that dynamically select tools and retry upon errors.
+  2. **MCP Standard:** Model Context Protocol standardizes tool, resource, and prompt primitives across client applications like a universal USB-C port.
+  3. **Practical System Design:** Most applied engineering tasks require deterministic, predictable workflows rather than complex, unpredictable autonomous agent loops.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -178,7 +186,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_14_baseline_score.md              <-- Detailed Submission 14 breakdown & learnings
 │   ├── submission_15_empty_live.md                  <-- Detailed Submission 15 breakdown & learnings
 │   ├── submission_16_stack_rationale.md             <-- Detailed Submission 16 breakdown & learnings
-│   └── submission_17_automation_workflow.md          <-- Detailed Submission 17 breakdown & learnings
+│   ├── submission_17_automation_workflow.md          <-- Detailed Submission 17 breakdown & learnings
+│   └── submission_18_mcp_agent_concepts.md          <-- Detailed Submission 18 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
