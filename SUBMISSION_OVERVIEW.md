@@ -13,6 +13,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **3** | **Phase: Setup (AI Workflow Audit & Toolkit Setup)** | 📄 [submission_03_workflow_audit.md](submissions/submission_03_workflow_audit.md) | N/A (Documentation & Setup) | Audited 12 weekly tasks across AI spectrum (3 'Just Me'), configured Claude Project with custom persona/goals, completed Anthropic Academy Module 1, and set target task success criteria. |
 | **4** | **Phase: Setup (Portfolio Sitemap & Claude Tutor Setup)** | 📄 [submission_04_portfolio_sitemap.md](submissions/submission_04_portfolio_sitemap.md) | N/A (Documentation & Design) | Designed lean portfolio sitemap around single proof claim & target action, setup Claude Portfolio Tutor Project, pressure-tested sitemap with AI, and refactored layout to single-page scroll. |
 | **5** | **Phase: Setup (What Are You Proving? Proof Statement)** | 📄 [submission_05_proof_statement.md](submissions/submission_05_proof_statement.md) | N/A (Documentation & Strategy) | Authored hyper-focused 1-paragraph proof statement (claim + person + action), defined one-line "why", and passed AI interview pressure-testing. |
+| **6** | **Phase: Foundations (ML-03 Task Framing)** | 📄 [submission_06_ml_task_framing.md](submissions/submission_06_ml_task_framing.md) | [`work/notebooks/w02_ml_task_framing.ipynb`](work/notebooks/w02_ml_task_framing.ipynb) | Framed Lane 2 as Ranking / Scoring problem, defined observed target proxy ($\Delta \text{Imp}_{\text{rel}} < -15\%$), defended Precision@50, verified 22,006-row slice, and demonstrated multi-signal ML superiority over static rules (+10.00% gain). |
 
 ---
 
@@ -57,8 +58,12 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Audience Specificity:** Targeting a concrete technical lead ensures every metric (Precision@50, client holdouts) resonates.
   3. **Proving Beyond CVs:** A portfolio's sole job is to prove practical engineering judgment that static resumes cannot convey.
 
-
-
+### 🔹 [Submission 6 — Phase: Foundations (ML-03 Task Framing)](submissions/submission_06_ml_task_framing.md)
+* **What Was Built:** Completed executed notebook `work/notebooks/w02_ml_task_framing.ipynb` mapping Lane 2 onto ML ranking/scoring loop, defined observed target proxy ($\Delta \text{Imp}_{\text{rel}} < -15\%$), defended Precision@50, inspected 22,006-row active demand slice dataframe, and proved multi-signal ML superiority (+10.00% Precision@50 gain over static rule).
+* **What I Learned:**
+  1. **Outcome-Based Labels:** ML targets must measure observed search console outcomes in later time windows rather than memorizing circular product tags.
+  2. **Operational Metric Alignment:** Precision@50 directly measures editorial Return-on-Investment for capacity-constrained teams.
+  3. **Non-Linear Interactions:** Fixed rules fail on position-CTR non-linearities, whereas multi-signal ML scoring captures non-linear feature combinations effectively.
 
 ---
 
@@ -69,11 +74,16 @@ flyrank-ml-internship-starter/
 ├── SUBMISSION_OVERVIEW.md                          <-- You are here (Submissions index & summary)
 ├── submissions/
 │   ├── submission_01_setup_notebooks.md            <-- Detailed Submission 1 breakdown & learnings
-│   └── submission_02_week1_research_question.md    <-- Detailed Submission 2 breakdown & learnings
+│   ├── submission_02_week1_research_question.md    <-- Detailed Submission 2 breakdown & learnings
+│   ├── submission_03_workflow_audit.md            <-- Detailed Submission 3 breakdown & learnings
+│   ├── submission_04_portfolio_sitemap.md          <-- Detailed Submission 4 breakdown & learnings
+│   ├── submission_05_proof_statement.md           <-- Detailed Submission 5 breakdown & learnings
+│   └── submission_06_ml_task_framing.md            <-- Detailed Submission 6 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
 └── work/
     └── notebooks/
-        └── w01_research_question.ipynb             <-- Executed: Week 1 framing & live dataset metrics
+        ├── w01_research_question.ipynb             <-- Executed: Week 1 framing & live dataset metrics
+        └── w02_ml_task_framing.ipynb               <-- Executed: Week 2 ML task framing & target definition
 ```
