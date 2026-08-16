@@ -14,6 +14,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **4** | **Phase: Setup (Portfolio Sitemap & Claude Tutor Setup)** | 📄 [submission_04_portfolio_sitemap.md](submissions/submission_04_portfolio_sitemap.md) | N/A (Documentation & Design) | Designed lean portfolio sitemap around single proof claim & target action, setup Claude Portfolio Tutor Project, pressure-tested sitemap with AI, and refactored layout to single-page scroll. |
 | **5** | **Phase: Setup (What Are You Proving? Proof Statement)** | 📄 [submission_05_proof_statement.md](submissions/submission_05_proof_statement.md) | N/A (Documentation & Strategy) | Authored hyper-focused 1-paragraph proof statement (claim + person + action), defined one-line "why", and passed AI interview pressure-testing. |
 | **6** | **Phase: Foundations (ML-03 Task Framing)** | 📄 [submission_06_ml_task_framing.md](submissions/submission_06_ml_task_framing.md) | [`work/notebooks/w02_ml_task_framing.ipynb`](work/notebooks/w02_ml_task_framing.ipynb) | Framed Lane 2 as Ranking / Scoring problem, defined observed target proxy ($\Delta \text{Imp}_{\text{rel}} < -15\%$), defended Precision@50, verified 22,006-row slice, and demonstrated multi-signal ML superiority over static rules (+10.00% gain). |
+| **7** | **Phase: Setup & AI Fluency (FL-02 Frame It As Cases)** | 📄 [submission_07_framed_cases.md](submissions/submission_07_framed_cases.md) | N/A (Documentation & AI Fluency) | Created 5-word voice card, conducted AI Q&A interview, drafted 3-beat case studies for FlyRank, CP Vault, and Campus Buddy, wrote bio/CTA copy, and included generic AI vs edited human before/after line. |
 
 ---
 
@@ -65,6 +66,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Operational Metric Alignment:** Precision@50 directly measures editorial Return-on-Investment for capacity-constrained teams.
   3. **Non-Linear Interactions:** Fixed rules fail on position-CTR non-linearities, whereas multi-signal ML scoring captures non-linear feature combinations effectively.
 
+### 🔹 [Submission 7 — Phase: Setup & AI Fluency (FL-02 Frame It As Cases)](submissions/submission_07_framed_cases.md)
+* **What Was Built:** Created 5-word voice card, conducted AI Q&A interview, drafted 3-beat case studies for FlyRank, CP Vault, and Campus Buddy, wrote bio/CTA copy, and included generic AI vs edited human before/after line.
+* **What I Learned:**
+  1. **AI as Interviewer:** Having AI interview me about real decisions extracted authentic human narratives without generic fluff.
+  2. **3-Beat Case Structure:** Problem, What I Did & Decided, What Came Of It creates clear, evidence-based portfolio cases.
+  3. **Voice Control:** A strict voice card ("sharp, empirical, plain, direct, evidence-first") sets clear boundaries to edit out AI resume buzzwords.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -78,7 +86,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_03_workflow_audit.md            <-- Detailed Submission 3 breakdown & learnings
 │   ├── submission_04_portfolio_sitemap.md          <-- Detailed Submission 4 breakdown & learnings
 │   ├── submission_05_proof_statement.md           <-- Detailed Submission 5 breakdown & learnings
-│   └── submission_06_ml_task_framing.md            <-- Detailed Submission 6 breakdown & learnings
+│   ├── submission_06_ml_task_framing.md            <-- Detailed Submission 6 breakdown & learnings
+│   └── submission_07_framed_cases.md               <-- Detailed Submission 7 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
