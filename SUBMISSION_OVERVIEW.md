@@ -22,6 +22,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **12** | **Phase: Foundations & AI Fluency (FL-05 Curate Your Images)** | 📄 [submission_12_curate_images.md](submissions/submission_12_curate_images.md) | N/A (Visual Asset Curation) | Mapped portfolio image inventory, prioritized real captures/logs over AI stand-ins, and documented discernment rejection log cutting 3D cyber-brain fluff and fake Midjourney dashboards. |
 | **13** | **Phase: Foundations & AI Fluency (FL-06 Map Content & CTAs)** | 📄 [submission_13_content_map.md](submissions/submission_13_content_map.md) | N/A (Content & Funnel Strategy) | Formulated sharp one-line claim, mapped section-by-section layout with named CTAs leading with FlyRank 88% P@50 case, and compiled honest list of proof assets still to gather. |
 | **14** | **Phase: Build (ML-07 Baseline Action Score & Signal Audit)** | 📄 [submission_14_baseline_score.md](submissions/submission_14_baseline_score.md) | [`work/notebooks/w04_baseline_score.ipynb`](work/notebooks/w04_baseline_score.ipynb) | Audited 2 core signals (staleness, CTR deficit), encoded transparent baseline scoring rule with reason codes, written ranked queue to CSV, and achieved 80.00% Precision@50 (1.24x lift). |
+| **15** | **Phase: Build & AI Fluency (FL-07 Empty but Live: Ship a Blank Page)** | 📄 [submission_15_empty_live.md](submissions/submission_15_empty_live.md) | [`index.html`](index.html) | Created HTML5/CSS3 structure implementing identity kit design system, deployed live to GitHub Pages URL, verified multi-device access, and loaded assets into Claude Project. |
 
 ---
 
@@ -129,6 +130,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Empirical Signal Validation:** Grouping data into bucket tables with explicit `n` counts confirmed that staleness and CTR deficits directly correlate with search impression decay.
   3. **Audit-Driven Refinement:** Auditing top-20 outputs revealed weak picks (non-indexed stub pages) that guide feature engineering for ML model training.
 
+### 🔹 [Submission 15 — Phase: Build & AI Fluency (FL-07 Empty but Live: Ship a Blank Page)](submissions/submission_15_empty_live.md)
+* **What Was Built:** Created HTML5/CSS3 project structure implementing identity kit design tokens (Plus Jakarta Sans, Inter, palette #F8FAFC, #FFFFFF, #0F172A, #2563EB, SVG AP monogram logo), deployed live to GitHub Pages URL, verified multi-device access, and loaded assets into Claude Project.
+* **What I Learned:**
+  1. **Deploy Early Milestone:** Shipping an empty but live page eliminates deployment setup friction before populating case study content.
+  2. **Multi-Device Accessibility:** Testing layouts on mobile viewports ensures responsive text scaling and eliminates overflow bugs.
+  3. **Context Consolidation:** Consolidating design tokens, case studies, and content maps into Claude Project instructions allows AI assistants to generate UI components matching the exact visual brand.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -136,6 +144,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 ```text
 flyrank-ml-internship-starter/
 ├── SUBMISSION_OVERVIEW.md                          <-- You are here (Submissions index & summary)
+├── index.html                                      <-- Live Website: Empty but live milestone page
 ├── submissions/
 │   ├── submission_01_setup_notebooks.md            <-- Detailed Submission 1 breakdown & learnings
 │   ├── submission_02_week1_research_question.md    <-- Detailed Submission 2 breakdown & learnings
@@ -150,7 +159,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_11_identity_kit.md                <-- Detailed Submission 11 breakdown & learnings
 │   ├── submission_12_curate_images.md                <-- Detailed Submission 12 breakdown & learnings
 │   ├── submission_13_content_map.md                 <-- Detailed Submission 13 breakdown & learnings
-│   └── submission_14_baseline_score.md              <-- Detailed Submission 14 breakdown & learnings
+│   ├── submission_14_baseline_score.md              <-- Detailed Submission 14 breakdown & learnings
+│   └── submission_15_empty_live.md                  <-- Detailed Submission 15 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
