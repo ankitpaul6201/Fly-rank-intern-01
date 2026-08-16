@@ -20,6 +20,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **10** | **Phase: Foundations (ML-04 Search Intelligence Data Contract)** | 📄 [submission_10_data_contract.md](submissions/submission_10_data_contract.md) | [`work/notebooks/w03_data_contract.ipynb`](work/notebooks/w03_data_contract.ipynb) | Wrote 5-part plain-words contract, ran 3 verification queries (grain uniqueness, row counts, IS TRUE availability), built 5-feature frame, and executed deliberate leakage trap (100% fake score vs 77.60% honest score). |
 | **11** | **Phase: Foundations & AI Fluency (FL-04 Build Your Identity Kit)** | 📄 [submission_11_identity_kit.md](submissions/submission_11_identity_kit.md) | N/A (Design & Brand Asset) | Defined typography pairing (Plus Jakarta Sans + Inter), 4-color palette (#F8FAFC, #FFFFFF, #0F172A, #2563EB), built SVG AP monogram logo, and configured 2-line style note in Claude Project. |
 | **12** | **Phase: Foundations & AI Fluency (FL-05 Curate Your Images)** | 📄 [submission_12_curate_images.md](submissions/submission_12_curate_images.md) | N/A (Visual Asset Curation) | Mapped portfolio image inventory, prioritized real captures/logs over AI stand-ins, and documented discernment rejection log cutting 3D cyber-brain fluff and fake Midjourney dashboards. |
+| **13** | **Phase: Foundations & AI Fluency (FL-06 Map Content & CTAs)** | 📄 [submission_13_content_map.md](submissions/submission_13_content_map.md) | N/A (Content & Funnel Strategy) | Formulated sharp one-line claim, mapped section-by-section layout with named CTAs leading with FlyRank 88% P@50 case, and compiled honest list of proof assets still to gather. |
 
 ---
 
@@ -113,6 +114,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Connective Tissue Alignment:** Non-photo visual elements (diagrams, icons) inherit identity kit hex codes (#F8FAFC, #2563EB) for systemic cohesion.
   3. **Discernment Discipline:** Demonstrating engineering maturity means intentionally cutting flashy AI artwork that competes with project evidence.
 
+### 🔹 [Submission 13 — Phase: Foundations & AI Fluency (FL-06 Map Content & CTAs)](submissions/submission_13_content_map.md)
+* **What Was Built:** Formulated sharp one-line claim, mapped section-by-section layout with named CTAs leading with FlyRank 88% P@50 case, and compiled honest list of proof assets still to gather.
+* **What I Learned:**
+  1. **Through-Line Strategy:** Every portfolio section must reinforce the single core claim and point toward the target 15-minute booking CTA.
+  2. **Leading with Highest Impact:** Featuring the FlyRank decay prediction model first establishes immediate empirical authority with technical hiring leads.
+  3. **Unblocked Build Roadmap:** Cataloging upcoming proof assets (warehouse queries, capstone report PDF) ensures portfolio frontend development stays on schedule.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -132,7 +140,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_09_prompting_fundamentals.md      <-- Detailed Submission 9 breakdown & learnings
 │   ├── submission_10_data_contract.md               <-- Detailed Submission 10 breakdown & learnings
 │   ├── submission_11_identity_kit.md                <-- Detailed Submission 11 breakdown & learnings
-│   └── submission_12_curate_images.md                <-- Detailed Submission 12 breakdown & learnings
+│   ├── submission_12_curate_images.md                <-- Detailed Submission 12 breakdown & learnings
+│   └── submission_13_content_map.md                 <-- Detailed Submission 13 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
