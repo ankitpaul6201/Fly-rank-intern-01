@@ -16,6 +16,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **6** | **Phase: Foundations (ML-03 Task Framing)** | 📄 [submission_06_ml_task_framing.md](submissions/submission_06_ml_task_framing.md) | [`work/notebooks/w02_ml_task_framing.ipynb`](work/notebooks/w02_ml_task_framing.ipynb) | Framed Lane 2 as Ranking / Scoring problem, defined observed target proxy ($\Delta \text{Imp}_{\text{rel}} < -15\%$), defended Precision@50, verified 22,006-row slice, and demonstrated multi-signal ML superiority over static rules (+10.00% gain). |
 | **7** | **Phase: Setup & AI Fluency (FL-02 Frame It As Cases)** | 📄 [submission_07_framed_cases.md](submissions/submission_07_framed_cases.md) | N/A (Documentation & AI Fluency) | Created 5-word voice card, conducted AI Q&A interview, drafted 3-beat case studies for FlyRank, CP Vault, and Campus Buddy, wrote bio/CTA copy, and included generic AI vs edited human before/after line. |
 | **8** | **Phase: Setup & AI Fluency (FL-03 Prompt Ladder)** | 📄 [submission_08_prompt_ladder.md](submissions/submission_08_prompt_ladder.md) | N/A (Prompt Engineering Asset) | Built 6-run prompt ladder (V0 weak baseline + 5 single-layer iterations), documented 4 evaluation notes per step, identified honest PyTorch over-engineering failure (V3), and delivered final reusable prompt. |
+| **9** | **Phase: Foundations & AI Fluency (FL-02 Prompting Fundamentals v2)** | 📄 [submission_09_prompting_fundamentals.md](submissions/submission_09_prompting_fundamentals.md) | N/A (Prompt Engineering Log) | Applied 5 named techniques (Role, Context, Few-Shot, Format, Chain-of-Thought) to Data Contract audit task, conducted honest Claude vs ChatGPT comparison, and built reusable template asset. |
 
 ---
 
@@ -81,6 +82,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Constraints Over Persona:** Adding explicit negative constraints (no PyTorch, use scikit-learn, GroupKFold on client_id) is far more critical for code reliability than vague persona descriptions.
   3. **Honest Evaluation:** Recognizing when an added layer makes output worse (V3 PyTorch over-engineering) prevents shipping overly complex solutions.
 
+### 🔹 [Submission 9 — Phase: Foundations & AI Fluency (FL-02 Prompting Fundamentals v2)](submissions/submission_09_prompting_fundamentals.md)
+* **What Was Built:** Applied 5 named techniques (Role Assignment, Context & Motivation, Few-Shot Examples, Output Structure, Step Decomposition) to an FL-01 Data Contract audit task, conducted cross-model comparison between Claude and ChatGPT, and built a portable prompt template.
+* **What I Learned:**
+  1. **Step Decomposition Prevents Rushing:** Adding explicit `<thinking>` chain-of-thought logic caught schema gotchas like `avg_position = 0` before code generation.
+  2. **Few-Shot Structure Control:** Providing a small YAML exemplar enforced schema syntax far more effectively than descriptive text instructions alone.
+  3. **Model Strengths:** Claude excels at strict format adherence and system assertions, while ChatGPT requires stronger constraints to avoid conversational text preamble.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -96,7 +104,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_05_proof_statement.md           <-- Detailed Submission 5 breakdown & learnings
 │   ├── submission_06_ml_task_framing.md            <-- Detailed Submission 6 breakdown & learnings
 │   ├── submission_07_framed_cases.md               <-- Detailed Submission 7 breakdown & learnings
-│   └── submission_08_prompt_ladder.md               <-- Detailed Submission 8 breakdown & learnings
+│   ├── submission_08_prompt_ladder.md               <-- Detailed Submission 8 breakdown & learnings
+│   └── submission_09_prompting_fundamentals.md      <-- Detailed Submission 9 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
