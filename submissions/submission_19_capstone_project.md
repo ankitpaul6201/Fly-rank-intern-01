@@ -56,7 +56,7 @@ The deployed research paper contains all required academic and technical section
 
 ## 🛠️ 4. Artifacts & Outputs Generated
 
-* **Executable Notebooks:** [`work/notebooks/w05_capstone_model.ipynb`](../work/notebooks/w05_capstone_model.ipynb) and [`work/notebooks/capstone_refresh_opportunity.ipynb`](../work/notebooks/capstone_refresh_opportunity.ipynb) (both executed top-to-bottom with 0 errors).
+* **Executable Notebooks:** [`work/notebooks/w05_model.ipynb`](../work/notebooks/w05_model.ipynb), [`work/notebooks/w05_capstone_model.ipynb`](../work/notebooks/w05_capstone_model.ipynb), and [`work/notebooks/capstone_refresh_opportunity.ipynb`](../work/notebooks/capstone_refresh_opportunity.ipynb) (all executed top-to-bottom with 0 errors).
 * **Action Recommendations Queue CSV:** `work/outputs/capstone_action_recommendations.csv`
 * **Metric Verification Receipt JSON:** `work/outputs/capstone_metrics.json`
 * **Mandatory URL Pointer File:** [`submission/paper_url.txt`](../submission/paper_url.txt)
