@@ -31,6 +31,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **21** | **Phase: Build+ & AI Fluency (FL-09 Explain It Like You Built It)** | 📄 [submission_21_explain_like_you_built_it.md](submissions/submission_21_explain_like_you_built_it.md) | [`work/notebooks/w05_model.ipynb`](work/notebooks/w05_model.ipynb) | Conducted AI tutor session on `GroupKFold` client-holdout split, answered quiz checking domain leakage concepts, and wrote plain-words student exam analogy. |
 | **22** | **Phase: Build & AI Fluency (FL-06 Design Your Personal Agent)** | 📄 [submission_22_personal_agent_spec.md](submissions/submission_22_personal_agent_spec.md) | N/A (Agent Design Spec) | Authored complete spec for J.A.R.V.I.S. AI desktop assistant, defined 5 eval cases, guardrails (path bounds, key masking), and linked repository `Personal-Ai-Assistant`. |
 | **23** | **Phase: Build & AI Fluency (FL-07 Build the Agent)** | 📄 [submission_23_build_the_agent.md](submissions/submission_23_build_the_agent.md) | [`https://github.com/ankitpaul6201/Personal-Ai-Assistant`](https://github.com/ankitpaul6201/Personal-Ai-Assistant) | Implemented MVP desktop agent with 4 live tool connections (`psutil`, `mss`, `Playwright`, `json`), documented 3 build log iterations & unedited run capture. |
+| **24** | **Phase: Build & AI Fluency (PF-04 Personal Website Live)** | 📄 [submission_24_personal_website_live.md](submissions/submission_24_personal_website_live.md) | [`index.html`](index.html) | Verified live HTTPS deployment on GitHub Pages, audited positioning & working links, authored plain-words DNS walkthrough & CNAME explainer. |
 
 ---
 
@@ -199,6 +200,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Vision Optimization:** Downscaling screen capture frames to 1080p WebP reduces payload size by 74% and cuts vision response latency under 1.2 seconds.
   3. **Ruthless Scope Discipline:** Cutting complex multi-agent subprocess swarms from MVP scope protects the 10-hour build timeline.
 
+### 🔹 [Submission 24 — Personal Website Live on FlyRank Domain (PF-04)](submissions/submission_24_personal_website_live.md)
+* **What Was Built:** Deployed live single-page website on GitHub Pages over HTTPS, verified working links (LinkedIn, GitHub, Capstone Paper, Calendly booking), authored plain-words DNS walkthrough (5-step resolution journey) and CNAME alias explainer.
+* **What I Learned:**
+  1. **Infrastructure Decoupling:** CNAME records allow pointing custom domain names to host platforms without hardcoding server IP addresses.
+  2. **End-to-End DNS Resolution:** Web browsers rely on recursive resolvers, root servers, TLD servers, and authoritative nameservers to map names to IPs in under 50ms.
+  3. **Automated CI/CD Deployment:** Integrating `.github/workflows/deploy-pages.yml` ensures every `git push` automatically builds and publishes website updates over HTTPS.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -232,7 +240,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_20_consistency_not_talent.md       <-- Detailed Submission 20 breakdown & learnings
 │   ├── submission_21_explain_like_you_built_it.md    <-- Detailed Submission 21 breakdown & learnings
 │   ├── submission_22_personal_agent_spec.md          <-- Detailed Submission 22 breakdown & learnings
-│   └── submission_23_build_the_agent.md              <-- Detailed Submission 23 breakdown & learnings
+│   ├── submission_23_build_the_agent.md              <-- Detailed Submission 23 breakdown & learnings
+│   └── submission_24_personal_website_live.md        <-- Detailed Submission 24 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
