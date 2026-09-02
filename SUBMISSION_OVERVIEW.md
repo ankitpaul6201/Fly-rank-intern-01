@@ -28,6 +28,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **18** | **Phase: Build & AI Fluency (FL-05 Agent Concepts & MCP Basics)** | 📄 [submission_18_mcp_agent_concepts.md](submissions/submission_18_mcp_agent_concepts.md) | N/A (Technical Explainer) | Authored 780-word technical explainer on Workflows vs Agents and MCP primitives, demonstrated 3 live local MCP tool calls, and designed an autonomous retry loop agent upgrade for FL-04. |
 | **19** | **Phase: Capstone (ML-08 Google Search Ranking & Discoverability Capstone)** | 📄 [submission_19_capstone_project.md](submissions/submission_19_capstone_project.md) | [`work/notebooks/w05_capstone_model.ipynb`](work/notebooks/w05_capstone_model.ipynb) | Built Lane 2 Refresh Opportunity Scoring Engine, evaluated models with GroupKFold (84.00% P@50 / 91.00% P@20), deployed research paper to GitHub Pages, and wrote `submission/paper_url.txt`. |
 | **20** | **Phase: Foundations & AI Fluency (Consistency, Not Talent)** | 📄 [submission_20_consistency_not_talent.md](submissions/submission_20_consistency_not_talent.md) | N/A (Visual Identity & Strategy) | Authored one-line claim, mapped portfolio content & CTAs, defined 4-color palette & font pairing, created SVG monogram logo, and curated real captures while cutting 3 AI-slop visual options. |
+| **21** | **Phase: Build+ & AI Fluency (FL-09 Explain It Like You Built It)** | 📄 [submission_21_explain_like_you_built_it.md](submissions/submission_21_explain_like_you_built_it.md) | [`work/notebooks/w05_model.ipynb`](work/notebooks/w05_model.ipynb) | Conducted AI tutor session on `GroupKFold` client-holdout split, answered quiz checking domain leakage concepts, and wrote plain-words student exam analogy. |
 
 ---
 
@@ -175,6 +176,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Decide Once:** Defining fonts and hex codes upfront eliminates visual randomness and micro-decision fatigue.
   3. **Ruthless AI Curation:** AI generation is effortless; true engineering judgment is demonstrated by rejecting 3D glowing brains and synthetic dashboards.
 
+### 🔹 [Submission 21 — Explain It Like You Built It (FL-09)](submissions/submission_21_explain_like_you_built_it.md)
+* **What Was Built:** Picked `GroupKFold(n_splits=5)` on `client_id` from `w05_model.ipynb`, engaged in interactive AI tutor session with 2-question quiz verification, and authored a plain-words student practice exam analogy.
+* **What I Learned:**
+  1. **Tutor Mode Ownership:** Using AI to teach concepts rather than generate pasted code ensures true human-in-the-loop comprehension.
+  2. **Domain Leakage Discipline:** Random splitting leaks client identity, whereas `GroupKFold` forces models to learn general decay rules that generalize to unseen web properties.
+  3. **Credibility Line:** Employers test whether you genuinely understand what you shipped; explaining complex code simply proves authentic ownership.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -203,8 +211,10 @@ flyrank-ml-internship-starter/
 │   ├── submission_15_empty_live.md                  <-- Detailed Submission 15 breakdown & learnings
 │   ├── submission_16_stack_rationale.md             <-- Detailed Submission 16 breakdown & learnings
 │   ├── submission_17_automation_workflow.md          <-- Detailed Submission 17 breakdown & learnings
+│   ├── submission_18_mcp_agent_concepts.md          <-- Detailed Submission 18 breakdown & learnings
 │   ├── submission_19_capstone_project.md            <-- Detailed Submission 19 breakdown & learnings
-│   └── submission_20_consistency_not_talent.md       <-- Detailed Submission 20 breakdown & learnings
+│   ├── submission_20_consistency_not_talent.md       <-- Detailed Submission 20 breakdown & learnings
+│   └── submission_21_explain_like_you_built_it.md    <-- Detailed Submission 21 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
