@@ -33,6 +33,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **23** | **Phase: Build & AI Fluency (FL-07 Build the Agent)** | 📄 [submission_23_build_the_agent.md](submissions/submission_23_build_the_agent.md) | [`https://github.com/ankitpaul6201/Personal-Ai-Assistant`](https://github.com/ankitpaul6201/Personal-Ai-Assistant) | Implemented MVP desktop agent with 4 live tool connections (`psutil`, `mss`, `Playwright`, `json`), documented 3 build log iterations & unedited run capture. |
 | **24** | **Phase: Build & AI Fluency (PF-04 Personal Website Live)** | 📄 [submission_24_personal_website_live.md](submissions/submission_24_personal_website_live.md) | [`index.html`](index.html) | Verified live HTTPS deployment on GitHub Pages, audited positioning & working links, authored plain-words DNS walkthrough & CNAME explainer. |
 | **25** | **Phase: Build+ (ML-09 Validation and Research Claim Audit)** | 📄 [submission_25_validation_audit.md](submissions/submission_25_validation_audit.md) | [`work/notebooks/w06_validation_audit.ipynb`](work/notebooks/w06_validation_audit.ipynb) | Audited 2 research paper findings, ran before/after cross-validation split comparison, executed leakage trap, and rewrote claims into public-safe language. |
+| **26** | **Phase: Submit & AI Fluency (FL-08 Make It Do Something)** | 📄 [submission_26_wire_one_real_thing.md](submissions/submission_26_wire_one_real_thing.md) | [`index.html#contact`](index.html#contact) | Wired serverless contact form on Formspree free-tier endpoint, implemented fail-graceful validation, and authored 6-step data flow explainer. |
 
 ---
 
@@ -215,6 +216,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Feature Leakage Vulnerability:** Introducing target-derived columns like `trend_pct` creates fake 100% scores; strict assertions must verify feature isolation.
   3. **Public-Safe Claim Vocabulary:** High-rigor engineering claims must use cautious vocabulary (*observed*, *measured*, *directional*, *decision-support*) to maintain credibility.
 
+### 🔹 [Submission 26 — Make It Do Something (FL-08 Wire One Real Thing)](submissions/submission_26_wire_one_real_thing.md)
+* **What Was Built:** Integrated serverless contact form in Section 10 of `index.html` using Formspree API (`https://formspree.io/f/xbjnqpyz`), built fail-graceful client validation (empty check, email regex), loading states, success card feedback, and authored 6-step data flow explainer.
+* **What I Learned:**
+  1. **Serverless Backends:** Free-tier form endpoints eliminate the overhead of hosting custom server backends while reliably delivering user submissions to personal inboxes.
+  2. **Client Validation Guardrails:** Intercepting form submits with client-side JavaScript checks prevents malformed network requests and improves UX.
+  3. **End-to-End Data Flow:** User messages flow asynchronously via `fetch()` JSON payloads across HTTPS to third-party endpoints, triggering email dispatches before returning `HTTP 200 OK` success responses.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -222,7 +230,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 ```text
 flyrank-ml-internship-starter/
 ├── SUBMISSION_OVERVIEW.md                          <-- You are here (Submissions index & summary)
-├── index.html                                      <-- Live Website: Deployed Capstone Research Paper
+├── index.html                                      <-- Live Website: Deployed Capstone Research Paper & Contact Form
 ├── submission/
 │   └── paper_url.txt                               <-- Mandatory Pointer: Live Deployed Research Paper URL
 ├── submissions/
@@ -250,7 +258,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_22_personal_agent_spec.md          <-- Detailed Submission 22 breakdown & learnings
 │   ├── submission_23_build_the_agent.md              <-- Detailed Submission 23 breakdown & learnings
 │   ├── submission_24_personal_website_live.md        <-- Detailed Submission 24 breakdown & learnings
-│   └── submission_25_validation_audit.md             <-- Detailed Submission 25 breakdown & learnings
+│   ├── submission_25_validation_audit.md             <-- Detailed Submission 25 breakdown & learnings
+│   └── submission_26_wire_one_real_thing.md          <-- Detailed Submission 26 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
