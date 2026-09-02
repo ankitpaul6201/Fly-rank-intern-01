@@ -44,6 +44,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **34** | **Phase: Submit (FL-10 Final Package & Retrospective)** | 📄 [submission_34_retrospective_and_capstone.md](submissions/submission_34_retrospective_and_capstone.md) | [`README.md`](README.md)<br>[`https://flyrank.ankitpaul.me/`](https://flyrank.ankitpaul.me/) | Assembled final capstone package, authored 680-word retrospective, 250-word public story, 5-min demo video script, comprehensive README.md, and master track index. |
 | **35** | **Phase: Submit (AI Fluency: The Plan to Keep Building)** | 📄 [submission_35_keep_building_plan.md](submissions/submission_35_keep_building_plan.md) | [`https://flyrank.ankitpaul.me/`](https://flyrank.ankitpaul.me/) | Defined 30-min 3-beat publishing workflow, named J.A.R.V.I.S. Desktop AI Agent project addition, set 1st-of-month calendar nudge, and saved AI workspace memory. |
 | **36** | **Phase: Capstone (FL Impact Project: Send the Link)** | 📄 [submission_36_capstone_fl_impact_project.md](submissions/submission_36_capstone_fl_impact_project.md) | [`https://flyrank.ankitpaul.me/`](https://flyrank.ankitpaul.me/) | Synthesized all 4 capstone components (live custom domain portfolio, public build-in-public story, 5-min video script, and verified graduate badge loop). |
+| **37** | **Phase: Capstone (Task 3: Send the Link: Launch, Demo & Story)** | 📄 [submission_37_capstone_task3_send_the_link.md](submissions/submission_37_capstone_task3_send_the_link.md) | [`https://flyrank.ankitpaul.me/`](https://flyrank.ankitpaul.me/) | Completed Capstone Task 3 synthesis, verified live custom domain, 5-minute showcase script, build-in-public story, and keep-building calendar nudge. |
 
 ---
 
@@ -303,6 +304,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Verified Credential Integration:** Linking official graduate badges directly to verification endpoints builds immediate trust with employers.
   3. **Compounding Career Leverage:** Operating an owned platform ensures every future ML project compounds your professional identity.
 
+### 🔹 [Submission 37 — Capstone Task 3: Send the Link (Launch, Demo & Story)](submissions/submission_37_capstone_task3_send_the_link.md)
+* **What Was Built:** Synthesized final Capstone Task 3 package: verified live custom domain (`https://flyrank.ankitpaul.me/`), 5-minute showcase script, build-in-public story, and keep-building habit setup.
+* **What I Learned:**
+  1. **Final Package Synthesis:** Combining live HTTPS web apps with honest technical storytelling creates complete career proof.
+  2. **Habit Compound Effect:** Maintaining a recurring monthly calendar reminder prevents portfolio decay.
+  3. **Verified Industry Sign-Off:** Completing all 37 track deliverables completes human sign-off criteria for certificate issuance.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -310,7 +318,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 ```text
 flyrank-ml-internship-starter/
 ├── README.md                                       <-- Production Capstone README (Setup, Architecture, V2 Results)
-├── SUBMISSION_OVERVIEW.md                          <-- You are here (Master index of all 36 submissions)
+├── SUBMISSION_OVERVIEW.md                          <-- You are here (Master index of all 37 submissions)
 ├── index.html                                      <-- Live Website: Deployed Capstone Research Paper & Contact Form
 ├── submission/
 │   └── paper_url.txt                               <-- Mandatory Pointer: Live Deployed Research Paper URL
@@ -350,7 +358,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_33_tell_the_story.md               <-- Detailed Submission 33 breakdown & learnings
 │   ├── submission_34_retrospective_and_capstone.md   <-- Detailed Submission 34 breakdown & learnings
 │   ├── submission_35_keep_building_plan.md           <-- Detailed Submission 35 breakdown & learnings
-│   └── submission_36_capstone_fl_impact_project.md   <-- Detailed Submission 36 breakdown & learnings
+│   ├── submission_36_capstone_fl_impact_project.md   <-- Detailed Submission 36 breakdown & learnings
+│   └── submission_37_capstone_task3_send_the_link.md <-- Detailed Submission 37 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
