@@ -34,6 +34,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **24** | **Phase: Build & AI Fluency (PF-04 Personal Website Live)** | 📄 [submission_24_personal_website_live.md](submissions/submission_24_personal_website_live.md) | [`index.html`](index.html) | Verified live HTTPS deployment on GitHub Pages, audited positioning & working links, authored plain-words DNS walkthrough & CNAME explainer. |
 | **25** | **Phase: Build+ (ML-09 Validation and Research Claim Audit)** | 📄 [submission_25_validation_audit.md](submissions/submission_25_validation_audit.md) | [`work/notebooks/w06_validation_audit.ipynb`](work/notebooks/w06_validation_audit.ipynb) | Audited 2 research paper findings, ran before/after cross-validation split comparison, executed leakage trap, and rewrote claims into public-safe language. |
 | **26** | **Phase: Submit & AI Fluency (FL-08 Make It Do Something)** | 📄 [submission_26_wire_one_real_thing.md](submissions/submission_26_wire_one_real_thing.md) | [`index.html#contact`](index.html#contact) | Wired serverless contact form on Formspree free-tier endpoint, implemented fail-graceful validation, and authored 6-step data flow explainer. |
+| **27** | **Phase: Build+ (Checkpoint 1: Open It on Your Phone & Design Review)** | 📄 [submission_27_open_it_on_your_phone.md](submissions/submission_27_open_it_on_your_phone.md) | [`index.html`](index.html) | Executed mobile-first responsive audit, added @media queries & 48px touch targets, passed 10-second proof test, and documented design crit matrix. |
 
 ---
 
@@ -223,6 +224,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Client Validation Guardrails:** Intercepting form submits with client-side JavaScript checks prevents malformed network requests and improves UX.
   3. **End-to-End Data Flow:** User messages flow asynchronously via `fetch()` JSON payloads across HTTPS to third-party endpoints, triggering email dispatches before returning `HTTP 200 OK` success responses.
 
+### 🔹 [Submission 27 — Open It on Your Phone & Design Review (Checkpoint 1)](submissions/submission_27_open_it_on_your_phone.md)
+* **What Was Built:** Executed mobile-first responsive audit, added `@media (max-width: 640px)` queries, wrapped benchmark tables in `.table-wrapper` touch-scrollers, updated buttons to 48px touch height, passed 10-second proof test, and documented design crit matrix.
+* **What I Learned:**
+  1. **Mobile-First Layout Discipline:** Responsive media queries and touch-scroll wrappers prevent tables and form inputs from clipping on mobile viewports under 640px.
+  2. **Human Interface Accessibility:** Maintaining 48px minimum touch target heights and WCAG AA 7.1:1 text contrast ratios ensures universal usability.
+  3. **Objectivity in Design Crits:** Accepting feedback objectively and categorizing items into Must-Fix vs Nice-to-Have elevates portfolio credibility without defensive pushback.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -259,7 +267,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_23_build_the_agent.md              <-- Detailed Submission 23 breakdown & learnings
 │   ├── submission_24_personal_website_live.md        <-- Detailed Submission 24 breakdown & learnings
 │   ├── submission_25_validation_audit.md             <-- Detailed Submission 25 breakdown & learnings
-│   └── submission_26_wire_one_real_thing.md          <-- Detailed Submission 26 breakdown & learnings
+│   ├── submission_26_wire_one_real_thing.md          <-- Detailed Submission 26 breakdown & learnings
+│   └── submission_27_open_it_on_your_phone.md        <-- Detailed Submission 27 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
