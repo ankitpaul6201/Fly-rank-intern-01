@@ -41,6 +41,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **31** | **Phase: Submit (Plant Your Flag: Domain + Badge & Keep Building)** | 📄 [submission_31_plant_your_flag.md](submissions/submission_31_plant_your_flag.md) | [`index.html`](index.html) | Installed official FlyRank Graduate Badge linking to credential verification (FR-D1-FEA2F-84A32), verified HTTPS launch hygiene, and defined 3-beat publishing plan. |
 | **32** | **Phase: Submit (ML-11 Ship the Research Paper)** | 📄 [submission_32_ship_the_paper.md](submissions/submission_32_ship_the_paper.md) | [`submission/paper_url.txt`](submission/paper_url.txt) | Assembled 9 required paper sections, executed `work/notebooks/capstone.ipynb`, verified `https://flyrank.ai/` data credit link, and published live HTTPS URL. |
 | **33** | **Phase: Submit (ML-12 Tell the Story)** | 📄 [submission_33_tell_the_story.md](submissions/submission_33_tell_the_story.md) | [`work/notebooks/capstone.ipynb`](work/notebooks/capstone.ipynb) | Tied paper findings to FlyRank content problem, added 5-minute showcase outline in `capstone.ipynb`, and drafted social post & employer 3-sentence summary cuts. |
+| **34** | **Phase: Submit (FL-10 Final Package & Retrospective)** | 📄 [submission_34_retrospective_and_capstone.md](submissions/submission_34_retrospective_and_capstone.md) | [`README.md`](README.md)<br>[`https://flyrank.ankitpaul.me/`](https://flyrank.ankitpaul.me/) | Assembled final capstone package, authored 680-word retrospective, 250-word public story, 5-min demo video script, comprehensive README.md, and master track index. |
 
 ---
 
@@ -279,13 +280,21 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Honest Technical Framing:** Explaining domain leakage risks publicly demonstrates deep engineering maturity and builds trust with technical interviewers.
   3. **Showcase Readiness:** Structuring a 5-minute presentation around 1 key chart and 1 clear operational recommendation turns a notebook into an active career asset.
 
+### 🔹 [Submission 34 — Final Package, Retrospective & Capstone (FL-10)](submissions/submission_34_retrospective_and_capstone.md)
+* **What Was Built:** Assembled complete final capstone package, authored 680-word track retrospective, 250-word public launch story, 5-minute video showcase script, comprehensive production `README.md`, and master deliverables index.
+* **What I Learned:**
+  1. **Validation Rigor over Metric Hype:** Unlearning naive random splits and adopting GroupKFold client holdouts creates genuine, out-of-domain ML proof.
+  2. **AI Transparency & Engineering Ownership:** Using AI as a high-leverage pair programmer while taking 100% human ownership over data contracts, metric math, and HTTPS infrastructure reads as ultimate professional credibility.
+  3. **Compounding Public Proof:** Launching an owned custom domain platform turns a temporary internship assignment into a permanent career platform.
+
 ---
 
 ## 🛠️ Repository Folder Map
 
 ```text
 flyrank-ml-internship-starter/
-├── SUBMISSION_OVERVIEW.md                          <-- You are here (Submissions index & summary)
+├── README.md                                       <-- Production Capstone README (Setup, Architecture, V2 Results)
+├── SUBMISSION_OVERVIEW.md                          <-- You are here (Master index of all 34 submissions)
 ├── index.html                                      <-- Live Website: Deployed Capstone Research Paper & Contact Form
 ├── submission/
 │   └── paper_url.txt                               <-- Mandatory Pointer: Live Deployed Research Paper URL
@@ -322,7 +331,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_30_break_your_own_site.md          <-- Detailed Submission 30 breakdown & learnings
 │   ├── submission_31_plant_your_flag.md              <-- Detailed Submission 31 breakdown & learnings
 │   ├── submission_32_ship_the_paper.md               <-- Detailed Submission 32 breakdown & learnings
-│   └── submission_33_tell_the_story.md               <-- Detailed Submission 33 breakdown & learnings
+│   ├── submission_33_tell_the_story.md               <-- Detailed Submission 33 breakdown & learnings
+│   └── submission_34_retrospective_and_capstone.md   <-- Detailed Submission 34 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
