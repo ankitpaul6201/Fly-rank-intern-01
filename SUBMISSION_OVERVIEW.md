@@ -32,6 +32,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **22** | **Phase: Build & AI Fluency (FL-06 Design Your Personal Agent)** | 📄 [submission_22_personal_agent_spec.md](submissions/submission_22_personal_agent_spec.md) | N/A (Agent Design Spec) | Authored complete spec for J.A.R.V.I.S. AI desktop assistant, defined 5 eval cases, guardrails (path bounds, key masking), and linked repository `Personal-Ai-Assistant`. |
 | **23** | **Phase: Build & AI Fluency (FL-07 Build the Agent)** | 📄 [submission_23_build_the_agent.md](submissions/submission_23_build_the_agent.md) | [`https://github.com/ankitpaul6201/Personal-Ai-Assistant`](https://github.com/ankitpaul6201/Personal-Ai-Assistant) | Implemented MVP desktop agent with 4 live tool connections (`psutil`, `mss`, `Playwright`, `json`), documented 3 build log iterations & unedited run capture. |
 | **24** | **Phase: Build & AI Fluency (PF-04 Personal Website Live)** | 📄 [submission_24_personal_website_live.md](submissions/submission_24_personal_website_live.md) | [`index.html`](index.html) | Verified live HTTPS deployment on GitHub Pages, audited positioning & working links, authored plain-words DNS walkthrough & CNAME explainer. |
+| **25** | **Phase: Build+ (ML-09 Validation and Research Claim Audit)** | 📄 [submission_25_validation_audit.md](submissions/submission_25_validation_audit.md) | [`work/notebooks/w06_validation_audit.ipynb`](work/notebooks/w06_validation_audit.ipynb) | Audited 2 research paper findings, ran before/after cross-validation split comparison, executed leakage trap, and rewrote claims into public-safe language. |
 
 ---
 
@@ -207,6 +208,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **End-to-End DNS Resolution:** Web browsers rely on recursive resolvers, root servers, TLD servers, and authoritative nameservers to map names to IPs in under 50ms.
   3. **Automated CI/CD Deployment:** Integrating `.github/workflows/deploy-pages.yml` ensures every `git push` automatically builds and publishes website updates over HTTPS.
 
+### 🔹 [Submission 25 — Validation and Research Claim Audit (ML-09)](submissions/submission_25_validation_audit.md)
+* **What Was Built:** Executed `work/notebooks/w06_validation_audit.ipynb`, audited 2 research paper findings with methodology questions, ran empirical before/after split comparison (Naive K-Fold vs GroupKFold), executed target leakage trap, and rewrote claims into public-safe language.
+* **What I Learned:**
+  1. **Validation Design Discipline:** Naive random splitting inflates metrics (96.00% P@50), whereas GroupKFold on `client_id` (84.00% P@50) evaluates true out-of-domain generalization.
+  2. **Feature Leakage Vulnerability:** Introducing target-derived columns like `trend_pct` creates fake 100% scores; strict assertions must verify feature isolation.
+  3. **Public-Safe Claim Vocabulary:** High-rigor engineering claims must use cautious vocabulary (*observed*, *measured*, *directional*, *decision-support*) to maintain credibility.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -241,7 +249,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_21_explain_like_you_built_it.md    <-- Detailed Submission 21 breakdown & learnings
 │   ├── submission_22_personal_agent_spec.md          <-- Detailed Submission 22 breakdown & learnings
 │   ├── submission_23_build_the_agent.md              <-- Detailed Submission 23 breakdown & learnings
-│   └── submission_24_personal_website_live.md        <-- Detailed Submission 24 breakdown & learnings
+│   ├── submission_24_personal_website_live.md        <-- Detailed Submission 24 breakdown & learnings
+│   └── submission_25_validation_audit.md             <-- Detailed Submission 25 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
