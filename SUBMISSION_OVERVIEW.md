@@ -37,6 +37,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **27** | **Phase: Build+ (Checkpoint 1: Open It on Your Phone & Design Review)** | 📄 [submission_27_open_it_on_your_phone.md](submissions/submission_27_open_it_on_your_phone.md) | [`index.html`](index.html) | Executed mobile-first responsive audit, added @media queries & 48px touch targets, passed 10-second proof test, and documented design crit matrix. |
 | **28** | **Phase: Build+ (Checkpoint 1: Survive the Crit)** | 📄 [submission_28_survive_the_crit.md](submissions/submission_28_survive_the_crit.md) | [`index.html`](index.html) | Conducted structured peer design review against Week 1 Proof Statement, sorted feedback into Must-Fix vs Nice-to-Have, and verified live resolution. |
 | **29** | **Phase: Build+ (ML-10 Content Action Playbook)** | 📄 [submission_29_action_playbook.md](submissions/submission_29_action_playbook.md) | [`work/notebooks/w07_action_playbook.ipynb`](work/notebooks/w07_action_playbook.ipynb) | Created 5 action archetypes with transparent reason codes, defined human review & no-go rules, set monitoring triggers, and exported figures & JSON receipts. |
+| **30** | **Phase: Submit (Checkpoint 2: Break Your Own Site & Open Graph SEO)** | 📄 [submission_30_break_your_own_site.md](submissions/submission_30_break_your_own_site.md) | [`index.html`](index.html) | Conducted edge-case hardening audit (empty inputs, rapid double submit, offline fallback), added Open Graph social meta tags, and triaged Fix-Nows. |
 
 ---
 
@@ -247,6 +248,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Strict Automation Guardrails:** High-risk actions (URL changes, auto-publishing LLM text, bulk deletions) must be strictly prohibited from full automation.
   3. **Operational Monitoring Triggers:** Establishing 75% Precision@50 thresholds and feature drift alerts prevents silent model performance decay.
 
+### 🔹 [Submission 30 — Break Your Own Site & Open Graph SEO (Checkpoint 2)](submissions/submission_30_break_your_own_site.md)
+* **What Was Built:** Conducted edge-case hardening audit (empty form submit, malformed email regex, rapid double submit, offline fallback), added Open Graph & Twitter social card meta tags, and triaged Fix-Nows.
+* **What I Learned:**
+  1. **Edge-Case Hardening:** Testing empty inputs, malformed regex strings, and rapid double-submits isolates UX friction before real users land on the site.
+  2. **Social Card Previews:** Integrating `og:title`, `og:description`, `og:image`, and `twitter:card` meta tags ensures professional links when shared on LinkedIn or messaging apps.
+  3. **Honest Known Limitations:** Transparently naming system constraints (batch notebook scoring, third-party Formspree API reliance) demonstrates engineering maturity.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -286,7 +294,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_26_wire_one_real_thing.md          <-- Detailed Submission 26 breakdown & learnings
 │   ├── submission_27_open_it_on_your_phone.md        <-- Detailed Submission 27 breakdown & learnings
 │   ├── submission_28_survive_the_crit.md             <-- Detailed Submission 28 breakdown & learnings
-│   └── submission_29_action_playbook.md              <-- Detailed Submission 29 breakdown & learnings
+│   ├── submission_29_action_playbook.md              <-- Detailed Submission 29 breakdown & learnings
+│   └── submission_30_break_your_own_site.md          <-- Detailed Submission 30 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
