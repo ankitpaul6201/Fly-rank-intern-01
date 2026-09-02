@@ -39,6 +39,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **29** | **Phase: Build+ (ML-10 Content Action Playbook)** | 📄 [submission_29_action_playbook.md](submissions/submission_29_action_playbook.md) | [`work/notebooks/w07_action_playbook.ipynb`](work/notebooks/w07_action_playbook.ipynb) | Created 5 action archetypes with transparent reason codes, defined human review & no-go rules, set monitoring triggers, and exported figures & JSON receipts. |
 | **30** | **Phase: Submit (Checkpoint 2: Break Your Own Site & Open Graph SEO)** | 📄 [submission_30_break_your_own_site.md](submissions/submission_30_break_your_own_site.md) | [`index.html`](index.html) | Conducted edge-case hardening audit (empty inputs, rapid double submit, offline fallback), added Open Graph social meta tags, and triaged Fix-Nows. |
 | **31** | **Phase: Submit (Plant Your Flag: Domain + Badge & Keep Building)** | 📄 [submission_31_plant_your_flag.md](submissions/submission_31_plant_your_flag.md) | [`index.html`](index.html) | Installed official FlyRank Graduate Badge linking to credential verification (FR-D1-FEA2F-84A32), verified HTTPS launch hygiene, and defined 3-beat publishing plan. |
+| **32** | **Phase: Submit (ML-11 Ship the Research Paper)** | 📄 [submission_32_ship_the_paper.md](submissions/submission_32_ship_the_paper.md) | [`submission/paper_url.txt`](submission/paper_url.txt) | Assembled 9 required paper sections, executed `work/notebooks/capstone.ipynb`, verified `https://flyrank.ai/` data credit link, and published live HTTPS URL. |
 
 ---
 
@@ -263,6 +264,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Launch Hygiene Rigor:** Verifying favicons, Open Graph tags, canonical links, and HTTPS certificates transforms a simple web page into an enterprise-grade platform.
   3. **Compounding Project Growth:** Establishing a 30-minute 3-beat publishing habit prevents portfolio stagnation and builds long-term engineering leverage.
 
+### 🔹 [Submission 32 — Ship the Paper (ML-11)](submissions/submission_32_ship_the_paper.md)
+* **What Was Built:** Assembled all 9 required research paper sections, executed `work/notebooks/capstone.ipynb`, verified single-line live URL pointer in `submission/paper_url.txt`, and verified data credit link to `https://flyrank.ai/`.
+* **What I Learned:**
+  1. **Rigorous Paper Structure:** Structuring research papers into 9 distinct sections (Abstract -> Problem -> Data -> Methodology -> Results -> Limitations -> Playbook -> Reproducibility -> Acknowledgments) ensures academic and industry credibility.
+  2. **Attribution & Data Credit:** Explicitly crediting dataset providers (FlyRank ML Internship) is standard research practice that validates empirical data lineage.
+  3. **End-to-End Reproducibility:** Maintaining 1-to-1 parity between Jupyter notebooks and deployed web applications guarantees open inspection of machine learning pipelines.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -304,7 +312,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_28_survive_the_crit.md             <-- Detailed Submission 28 breakdown & learnings
 │   ├── submission_29_action_playbook.md              <-- Detailed Submission 29 breakdown & learnings
 │   ├── submission_30_break_your_own_site.md          <-- Detailed Submission 30 breakdown & learnings
-│   └── submission_31_plant_your_flag.md              <-- Detailed Submission 31 breakdown & learnings
+│   ├── submission_31_plant_your_flag.md              <-- Detailed Submission 31 breakdown & learnings
+│   └── submission_32_ship_the_paper.md               <-- Detailed Submission 32 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
