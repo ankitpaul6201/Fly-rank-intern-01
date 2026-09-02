@@ -36,6 +36,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **26** | **Phase: Submit & AI Fluency (FL-08 Make It Do Something)** | 📄 [submission_26_wire_one_real_thing.md](submissions/submission_26_wire_one_real_thing.md) | [`index.html#contact`](index.html#contact) | Wired serverless contact form on Formspree free-tier endpoint, implemented fail-graceful validation, and authored 6-step data flow explainer. |
 | **27** | **Phase: Build+ (Checkpoint 1: Open It on Your Phone & Design Review)** | 📄 [submission_27_open_it_on_your_phone.md](submissions/submission_27_open_it_on_your_phone.md) | [`index.html`](index.html) | Executed mobile-first responsive audit, added @media queries & 48px touch targets, passed 10-second proof test, and documented design crit matrix. |
 | **28** | **Phase: Build+ (Checkpoint 1: Survive the Crit)** | 📄 [submission_28_survive_the_crit.md](submissions/submission_28_survive_the_crit.md) | [`index.html`](index.html) | Conducted structured peer design review against Week 1 Proof Statement, sorted feedback into Must-Fix vs Nice-to-Have, and verified live resolution. |
+| **29** | **Phase: Build+ (ML-10 Content Action Playbook)** | 📄 [submission_29_action_playbook.md](submissions/submission_29_action_playbook.md) | [`work/notebooks/w07_action_playbook.ipynb`](work/notebooks/w07_action_playbook.ipynb) | Created 5 action archetypes with transparent reason codes, defined human review & no-go rules, set monitoring triggers, and exported figures & JSON receipts. |
 
 ---
 
@@ -239,6 +240,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Ruthless Prioritization:** Prioritizing Must-Fix items (mobile layout, touch target accessibility) over Nice-to-Have polish features ensures rapid deployment of high-impact fixes.
   3. **Empirical Validation of Positioning:** 10-second proof tests confirm whether external reviewers grasp core engineering claims instantly.
 
+### 🔹 [Submission 29 — Content Action Playbook (ML-10)](submissions/submission_29_action_playbook.md)
+* **What Was Built:** Executed `work/notebooks/w07_action_playbook.ipynb`, created 5 action archetypes with transparent reason codes, defined human review & no-go rules, set monitoring triggers, and exported figures & JSON receipts.
+* **What I Learned:**
+  1. **Actionable Reason Codes:** Model probabilities must be paired with human-readable reason codes (e.g. `CRITICAL_STALE_HIGH_DEMAND`) to guide non-technical content teams.
+  2. **Strict Automation Guardrails:** High-risk actions (URL changes, auto-publishing LLM text, bulk deletions) must be strictly prohibited from full automation.
+  3. **Operational Monitoring Triggers:** Establishing 75% Precision@50 thresholds and feature drift alerts prevents silent model performance decay.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -277,7 +285,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_25_validation_audit.md             <-- Detailed Submission 25 breakdown & learnings
 │   ├── submission_26_wire_one_real_thing.md          <-- Detailed Submission 26 breakdown & learnings
 │   ├── submission_27_open_it_on_your_phone.md        <-- Detailed Submission 27 breakdown & learnings
-│   └── submission_28_survive_the_crit.md             <-- Detailed Submission 28 breakdown & learnings
+│   ├── submission_28_survive_the_crit.md             <-- Detailed Submission 28 breakdown & learnings
+│   └── submission_29_action_playbook.md              <-- Detailed Submission 29 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn

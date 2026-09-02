@@ -1,0 +1,7 @@
+{
+  "total_pages_scored": 22006,
+  "critical_stale_high_demand_count": 12,
+  "stale_low_ctr_count": 2136,
+  "high_pos_decay_count": 4126,
+  "precision_at_50": 0.892
+}
