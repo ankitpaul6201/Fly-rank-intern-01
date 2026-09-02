@@ -38,6 +38,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **28** | **Phase: Build+ (Checkpoint 1: Survive the Crit)** | 📄 [submission_28_survive_the_crit.md](submissions/submission_28_survive_the_crit.md) | [`index.html`](index.html) | Conducted structured peer design review against Week 1 Proof Statement, sorted feedback into Must-Fix vs Nice-to-Have, and verified live resolution. |
 | **29** | **Phase: Build+ (ML-10 Content Action Playbook)** | 📄 [submission_29_action_playbook.md](submissions/submission_29_action_playbook.md) | [`work/notebooks/w07_action_playbook.ipynb`](work/notebooks/w07_action_playbook.ipynb) | Created 5 action archetypes with transparent reason codes, defined human review & no-go rules, set monitoring triggers, and exported figures & JSON receipts. |
 | **30** | **Phase: Submit (Checkpoint 2: Break Your Own Site & Open Graph SEO)** | 📄 [submission_30_break_your_own_site.md](submissions/submission_30_break_your_own_site.md) | [`index.html`](index.html) | Conducted edge-case hardening audit (empty inputs, rapid double submit, offline fallback), added Open Graph social meta tags, and triaged Fix-Nows. |
+| **31** | **Phase: Submit (Plant Your Flag: Domain + Badge & Keep Building)** | 📄 [submission_31_plant_your_flag.md](submissions/submission_31_plant_your_flag.md) | [`index.html`](index.html) | Installed official FlyRank Graduate Badge linking to credential verification (FR-D1-FEA2F-84A32), verified HTTPS launch hygiene, and defined 3-beat publishing plan. |
 
 ---
 
@@ -255,6 +256,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Social Card Previews:** Integrating `og:title`, `og:description`, `og:image`, and `twitter:card` meta tags ensures professional links when shared on LinkedIn or messaging apps.
   3. **Honest Known Limitations:** Transparently naming system constraints (batch notebook scoring, third-party Formspree API reliance) demonstrates engineering maturity.
 
+### 🔹 [Submission 31 — Plant Your Flag: Domain + Badge & Keep Building](submissions/submission_31_plant_your_flag.md)
+* **What Was Built:** Installed official FlyRank Machine Learning Graduate Badge into footer linking to verification page (`FR-D1-FEA2F-84A32`), verified HTTPS launch hygiene, and defined 3-beat post-internship publishing plan.
+* **What I Learned:**
+  1. **Public Identity & Verification:** Installing live credential badges backed by official verification APIs establishes immutable proof of AI/ML competency.
+  2. **Launch Hygiene Rigor:** Verifying favicons, Open Graph tags, canonical links, and HTTPS certificates transforms a simple web page into an enterprise-grade platform.
+  3. **Compounding Project Growth:** Establishing a 30-minute 3-beat publishing habit prevents portfolio stagnation and builds long-term engineering leverage.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -295,7 +303,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_27_open_it_on_your_phone.md        <-- Detailed Submission 27 breakdown & learnings
 │   ├── submission_28_survive_the_crit.md             <-- Detailed Submission 28 breakdown & learnings
 │   ├── submission_29_action_playbook.md              <-- Detailed Submission 29 breakdown & learnings
-│   └── submission_30_break_your_own_site.md          <-- Detailed Submission 30 breakdown & learnings
+│   ├── submission_30_break_your_own_site.md          <-- Detailed Submission 30 breakdown & learnings
+│   └── submission_31_plant_your_flag.md              <-- Detailed Submission 31 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
