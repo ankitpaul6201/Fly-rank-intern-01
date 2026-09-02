@@ -29,6 +29,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **19** | **Phase: Capstone (ML-08 Google Search Ranking & Discoverability Capstone)** | 📄 [submission_19_capstone_project.md](submissions/submission_19_capstone_project.md) | [`work/notebooks/w05_capstone_model.ipynb`](work/notebooks/w05_capstone_model.ipynb) | Built Lane 2 Refresh Opportunity Scoring Engine, evaluated models with GroupKFold (84.00% P@50 / 91.00% P@20), deployed research paper to GitHub Pages, and wrote `submission/paper_url.txt`. |
 | **20** | **Phase: Foundations & AI Fluency (Consistency, Not Talent)** | 📄 [submission_20_consistency_not_talent.md](submissions/submission_20_consistency_not_talent.md) | N/A (Visual Identity & Strategy) | Authored one-line claim, mapped portfolio content & CTAs, defined 4-color palette & font pairing, created SVG monogram logo, and curated real captures while cutting 3 AI-slop visual options. |
 | **21** | **Phase: Build+ & AI Fluency (FL-09 Explain It Like You Built It)** | 📄 [submission_21_explain_like_you_built_it.md](submissions/submission_21_explain_like_you_built_it.md) | [`work/notebooks/w05_model.ipynb`](work/notebooks/w05_model.ipynb) | Conducted AI tutor session on `GroupKFold` client-holdout split, answered quiz checking domain leakage concepts, and wrote plain-words student exam analogy. |
+| **22** | **Phase: Build & AI Fluency (FL-06 Design Your Personal Agent)** | 📄 [submission_22_personal_agent_spec.md](submissions/submission_22_personal_agent_spec.md) | N/A (Agent Design Spec) | Authored complete spec for J.A.R.V.I.S. AI desktop assistant, defined 5 eval cases, guardrails (path bounds, key masking), and linked repository `Personal-Ai-Assistant`. |
 
 ---
 
@@ -183,6 +184,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Domain Leakage Discipline:** Random splitting leaks client identity, whereas `GroupKFold` forces models to learn general decay rules that generalize to unseen web properties.
   3. **Credibility Line:** Employers test whether you genuinely understand what you shipped; explaining complex code simply proves authentic ownership.
 
+### 🔹 [Submission 22 — Design Your Personal Agent (FL-06)](submissions/submission_22_personal_agent_spec.md)
+* **What Was Built:** Authored complete agent design spec for **J.A.R.V.I.S. AI** desktop assistant, defined 5 pre-build eval cases, guardrails (path bounds checking, secret masking), and linked repository `Personal-Ai-Assistant`.
+* **What I Learned:**
+  1. **Tight Agent Specs:** Specifying tools, eval cases, and guardrails upfront prevents agents from becoming 30-hour unmaintainable projects.
+  2. **Native vs Sandboxed Runtime:** Local Python apps with Gemini Live WebSockets provide system telemetry, screen vision, and low latency that sandboxed chat apps cannot achieve.
+  3. **Guardrails First:** Path boundary checks (`validate_safe_path`) and secret redaction must be designed into the core system before deployment.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -214,7 +222,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_18_mcp_agent_concepts.md          <-- Detailed Submission 18 breakdown & learnings
 │   ├── submission_19_capstone_project.md            <-- Detailed Submission 19 breakdown & learnings
 │   ├── submission_20_consistency_not_talent.md       <-- Detailed Submission 20 breakdown & learnings
-│   └── submission_21_explain_like_you_built_it.md    <-- Detailed Submission 21 breakdown & learnings
+│   ├── submission_21_explain_like_you_built_it.md    <-- Detailed Submission 21 breakdown & learnings
+│   └── submission_22_personal_agent_spec.md          <-- Detailed Submission 22 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
