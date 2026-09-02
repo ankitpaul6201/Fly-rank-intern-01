@@ -30,6 +30,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **20** | **Phase: Foundations & AI Fluency (Consistency, Not Talent)** | 📄 [submission_20_consistency_not_talent.md](submissions/submission_20_consistency_not_talent.md) | N/A (Visual Identity & Strategy) | Authored one-line claim, mapped portfolio content & CTAs, defined 4-color palette & font pairing, created SVG monogram logo, and curated real captures while cutting 3 AI-slop visual options. |
 | **21** | **Phase: Build+ & AI Fluency (FL-09 Explain It Like You Built It)** | 📄 [submission_21_explain_like_you_built_it.md](submissions/submission_21_explain_like_you_built_it.md) | [`work/notebooks/w05_model.ipynb`](work/notebooks/w05_model.ipynb) | Conducted AI tutor session on `GroupKFold` client-holdout split, answered quiz checking domain leakage concepts, and wrote plain-words student exam analogy. |
 | **22** | **Phase: Build & AI Fluency (FL-06 Design Your Personal Agent)** | 📄 [submission_22_personal_agent_spec.md](submissions/submission_22_personal_agent_spec.md) | N/A (Agent Design Spec) | Authored complete spec for J.A.R.V.I.S. AI desktop assistant, defined 5 eval cases, guardrails (path bounds, key masking), and linked repository `Personal-Ai-Assistant`. |
+| **23** | **Phase: Build & AI Fluency (FL-07 Build the Agent)** | 📄 [submission_23_build_the_agent.md](submissions/submission_23_build_the_agent.md) | [`https://github.com/ankitpaul6201/Personal-Ai-Assistant`](https://github.com/ankitpaul6201/Personal-Ai-Assistant) | Implemented MVP desktop agent with 4 live tool connections (`psutil`, `mss`, `Playwright`, `json`), documented 3 build log iterations & unedited run capture. |
 
 ---
 
@@ -191,6 +192,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Native vs Sandboxed Runtime:** Local Python apps with Gemini Live WebSockets provide system telemetry, screen vision, and low latency that sandboxed chat apps cannot achieve.
   3. **Guardrails First:** Path boundary checks (`validate_safe_path`) and secret redaction must be designed into the core system before deployment.
 
+### 🔹 [Submission 23 — Build the Agent (FL-07)](submissions/submission_23_build_the_agent.md)
+* **What Was Built:** Built Checkpoint 1 MVP desktop agent with 4 live tool connections (`psutil` telemetry, `mss`/OpenCV vision, `Playwright` web search, `json` memory), documented 3 debugging iterations, and recorded raw unedited execution loop.
+* **What I Learned:**
+  1. **Thread-Safe Queues:** Asynchronous queue buffering prevents audio underflow clicks during WebSocket bidirectional streaming.
+  2. **Vision Optimization:** Downscaling screen capture frames to 1080p WebP reduces payload size by 74% and cuts vision response latency under 1.2 seconds.
+  3. **Ruthless Scope Discipline:** Cutting complex multi-agent subprocess swarms from MVP scope protects the 10-hour build timeline.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -223,7 +231,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_19_capstone_project.md            <-- Detailed Submission 19 breakdown & learnings
 │   ├── submission_20_consistency_not_talent.md       <-- Detailed Submission 20 breakdown & learnings
 │   ├── submission_21_explain_like_you_built_it.md    <-- Detailed Submission 21 breakdown & learnings
-│   └── submission_22_personal_agent_spec.md          <-- Detailed Submission 22 breakdown & learnings
+│   ├── submission_22_personal_agent_spec.md          <-- Detailed Submission 22 breakdown & learnings
+│   └── submission_23_build_the_agent.md              <-- Detailed Submission 23 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
