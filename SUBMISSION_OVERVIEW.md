@@ -27,6 +27,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **17** | **Phase: Build & AI Fluency (FL-04 Ship an Automation Workflow v2)** | 📄 [submission_17_automation_workflow.md](submissions/submission_17_automation_workflow.md) | N/A (Automation Architecture & Runs) | Built 4-step automated data contract audit pipeline with defined handoffs using NotebookLM and Claude, ran 5 real dataset benchmarks saving 2.0 hours net, and cataloged failure modes. |
 | **18** | **Phase: Build & AI Fluency (FL-05 Agent Concepts & MCP Basics)** | 📄 [submission_18_mcp_agent_concepts.md](submissions/submission_18_mcp_agent_concepts.md) | N/A (Technical Explainer) | Authored 780-word technical explainer on Workflows vs Agents and MCP primitives, demonstrated 3 live local MCP tool calls, and designed an autonomous retry loop agent upgrade for FL-04. |
 | **19** | **Phase: Capstone (ML-08 Google Search Ranking & Discoverability Capstone)** | 📄 [submission_19_capstone_project.md](submissions/submission_19_capstone_project.md) | [`work/notebooks/w05_capstone_model.ipynb`](work/notebooks/w05_capstone_model.ipynb) | Built Lane 2 Refresh Opportunity Scoring Engine, evaluated models with GroupKFold (84.00% P@50 / 91.00% P@20), deployed research paper to GitHub Pages, and wrote `submission/paper_url.txt`. |
+| **20** | **Phase: Foundations & AI Fluency (Consistency, Not Talent)** | 📄 [submission_20_consistency_not_talent.md](submissions/submission_20_consistency_not_talent.md) | N/A (Visual Identity & Strategy) | Authored one-line claim, mapped portfolio content & CTAs, defined 4-color palette & font pairing, created SVG monogram logo, and curated real captures while cutting 3 AI-slop visual options. |
 
 ---
 
@@ -167,6 +168,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Client-Holdout Generalization:** `GroupKFold` validation grouped by `client_id` prevents data leakage and proves model robustness across unseen web domains.
   3. **End-to-End Capstone Delivery:** Packaging ML models into deployed research papers creates accessible technical communication assets for public evaluation.
 
+### 🔹 [Submission 20 — Consistency, Not Talent (and Frame, Not Upstage)](submissions/submission_20_consistency_not_talent.md)
+* **What Was Built:** Authored single-sentence claim, mapped 5 page sections with explicit CTAs laddering up to discovery booking, established Identity Kit (`Plus Jakarta Sans` + `Inter`, `#F8FAFC`, `#FFFFFF`, `#0F172A`, `#2563EB`), created SVG monogram logo, and curated real proof captures while documenting AI rejection log.
+* **What I Learned:**
+  1. **Frame, Not Painting:** Portfolio design must quietly frame the work so real case study metrics and code proof remain the main focus.
+  2. **Decide Once:** Defining fonts and hex codes upfront eliminates visual randomness and micro-decision fatigue.
+  3. **Ruthless AI Curation:** AI generation is effortless; true engineering judgment is demonstrated by rejecting 3D glowing brains and synthetic dashboards.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -195,8 +203,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_15_empty_live.md                  <-- Detailed Submission 15 breakdown & learnings
 │   ├── submission_16_stack_rationale.md             <-- Detailed Submission 16 breakdown & learnings
 │   ├── submission_17_automation_workflow.md          <-- Detailed Submission 17 breakdown & learnings
-│   ├── submission_18_mcp_agent_concepts.md          <-- Detailed Submission 18 breakdown & learnings
-│   └── submission_19_capstone_project.md            <-- Detailed Submission 19 breakdown & learnings
+│   ├── submission_19_capstone_project.md            <-- Detailed Submission 19 breakdown & learnings
+│   └── submission_20_consistency_not_talent.md       <-- Detailed Submission 20 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn

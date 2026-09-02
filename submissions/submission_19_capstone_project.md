@@ -3,8 +3,8 @@
 **Task Reference:** `Capstone Project 1 — Google Search Ranking & Discoverability Capstone (Machine Learning Track)`  
 **Phase:** Capstone | **Estimated Hours:** 32  
 **Deliverable File:** [`submissions/submission_19_capstone_project.md`](submissions/submission_19_capstone_project.md)  
-**Deployed Research Paper:** [`index.html`](index.html) | Live URL: [https://ankitpaul6201.github.io/Fly-rank-intern-01/](https://ankitpaul6201.github.io/Fly-rank-intern-01/)  
-**Mandatory URL File:** [`submission/paper_url.txt`](submission/paper_url.txt)
+**Deployed Research Paper:** [`index.html`](../index.html) | Live URL: [https://ankitpaul6201.github.io/Fly-rank-intern-01/](https://ankitpaul6201.github.io/Fly-rank-intern-01/)  
+**Mandatory URL File:** [`submission/paper_url.txt`](../submission/paper_url.txt)
 
 ---
 
@@ -56,11 +56,11 @@ The deployed research paper contains all required academic and technical section
 
 ## 🛠️ 4. Artifacts & Outputs Generated
 
-* **Executable Notebooks:** [`work/notebooks/w05_capstone_model.ipynb`](work/notebooks/w05_capstone_model.ipynb) and [`work/notebooks/capstone_refresh_opportunity.ipynb`](work/notebooks/capstone_refresh_opportunity.ipynb) (both executed top-to-bottom with 0 errors).
+* **Executable Notebooks:** [`work/notebooks/w05_capstone_model.ipynb`](../work/notebooks/w05_capstone_model.ipynb) and [`work/notebooks/capstone_refresh_opportunity.ipynb`](../work/notebooks/capstone_refresh_opportunity.ipynb) (both executed top-to-bottom with 0 errors).
 * **Action Recommendations Queue CSV:** `work/outputs/capstone_action_recommendations.csv`
 * **Metric Verification Receipt JSON:** `work/outputs/capstone_metrics.json`
-* **Mandatory URL Pointer File:** [`submission/paper_url.txt`](submission/paper_url.txt)
-* **Deployed Web Research Paper:** [`index.html`](index.html)
+* **Mandatory URL Pointer File:** [`submission/paper_url.txt`](../submission/paper_url.txt)
+* **Deployed Web Research Paper:** [`index.html`](../index.html)
 
 ---
 
