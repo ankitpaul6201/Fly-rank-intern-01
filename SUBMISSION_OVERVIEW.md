@@ -40,6 +40,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **30** | **Phase: Submit (Checkpoint 2: Break Your Own Site & Open Graph SEO)** | 📄 [submission_30_break_your_own_site.md](submissions/submission_30_break_your_own_site.md) | [`index.html`](index.html) | Conducted edge-case hardening audit (empty inputs, rapid double submit, offline fallback), added Open Graph social meta tags, and triaged Fix-Nows. |
 | **31** | **Phase: Submit (Plant Your Flag: Domain + Badge & Keep Building)** | 📄 [submission_31_plant_your_flag.md](submissions/submission_31_plant_your_flag.md) | [`index.html`](index.html) | Installed official FlyRank Graduate Badge linking to credential verification (FR-D1-FEA2F-84A32), verified HTTPS launch hygiene, and defined 3-beat publishing plan. |
 | **32** | **Phase: Submit (ML-11 Ship the Research Paper)** | 📄 [submission_32_ship_the_paper.md](submissions/submission_32_ship_the_paper.md) | [`submission/paper_url.txt`](submission/paper_url.txt) | Assembled 9 required paper sections, executed `work/notebooks/capstone.ipynb`, verified `https://flyrank.ai/` data credit link, and published live HTTPS URL. |
+| **33** | **Phase: Submit (ML-12 Tell the Story)** | 📄 [submission_33_tell_the_story.md](submissions/submission_33_tell_the_story.md) | [`work/notebooks/capstone.ipynb`](work/notebooks/capstone.ipynb) | Tied paper findings to FlyRank content problem, added 5-minute showcase outline in `capstone.ipynb`, and drafted social post & employer 3-sentence summary cuts. |
 
 ---
 
@@ -271,6 +272,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Attribution & Data Credit:** Explicitly crediting dataset providers (FlyRank ML Internship) is standard research practice that validates empirical data lineage.
   3. **End-to-End Reproducibility:** Maintaining 1-to-1 parity between Jupyter notebooks and deployed web applications guarantees open inspection of machine learning pipelines.
 
+### 🔹 [Submission 33 — Tell the Story (ML-12)](submissions/submission_33_tell_the_story.md)
+* **What Was Built:** Tied paper findings to real FlyRank content refresh problem, added 5-minute showcase demo outline in Section 8 of `work/notebooks/capstone.ipynb`, and drafted social post & 3-sentence employer summary cuts.
+* **What I Learned:**
+  1. **Audience-Specific Narrative Adaptation:** Translating complex GroupKFold ML metrics into tailored formats (5-minute live demo, technical social post, employer summary) maximizes work visibility.
+  2. **Honest Technical Framing:** Explaining domain leakage risks publicly demonstrates deep engineering maturity and builds trust with technical interviewers.
+  3. **Showcase Readiness:** Structuring a 5-minute presentation around 1 key chart and 1 clear operational recommendation turns a notebook into an active career asset.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -313,7 +321,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_29_action_playbook.md              <-- Detailed Submission 29 breakdown & learnings
 │   ├── submission_30_break_your_own_site.md          <-- Detailed Submission 30 breakdown & learnings
 │   ├── submission_31_plant_your_flag.md              <-- Detailed Submission 31 breakdown & learnings
-│   └── submission_32_ship_the_paper.md               <-- Detailed Submission 32 breakdown & learnings
+│   ├── submission_32_ship_the_paper.md               <-- Detailed Submission 32 breakdown & learnings
+│   └── submission_33_tell_the_story.md               <-- Detailed Submission 33 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
