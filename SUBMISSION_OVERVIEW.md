@@ -42,6 +42,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **32** | **Phase: Submit (ML-11 Ship the Research Paper)** | 📄 [submission_32_ship_the_paper.md](submissions/submission_32_ship_the_paper.md) | [`submission/paper_url.txt`](submission/paper_url.txt) | Assembled 9 required paper sections, executed `work/notebooks/capstone.ipynb`, verified `https://flyrank.ai/` data credit link, and published live HTTPS URL. |
 | **33** | **Phase: Submit (ML-12 Tell the Story)** | 📄 [submission_33_tell_the_story.md](submissions/submission_33_tell_the_story.md) | [`work/notebooks/capstone.ipynb`](work/notebooks/capstone.ipynb) | Tied paper findings to FlyRank content problem, added 5-minute showcase outline in `capstone.ipynb`, and drafted social post & employer 3-sentence summary cuts. |
 | **34** | **Phase: Submit (FL-10 Final Package & Retrospective)** | 📄 [submission_34_retrospective_and_capstone.md](submissions/submission_34_retrospective_and_capstone.md) | [`README.md`](README.md)<br>[`https://flyrank.ankitpaul.me/`](https://flyrank.ankitpaul.me/) | Assembled final capstone package, authored 680-word retrospective, 250-word public story, 5-min demo video script, comprehensive README.md, and master track index. |
+| **35** | **Phase: Submit (AI Fluency: The Plan to Keep Building)** | 📄 [submission_35_keep_building_plan.md](submissions/submission_35_keep_building_plan.md) | [`https://flyrank.ankitpaul.me/`](https://flyrank.ankitpaul.me/) | Defined 30-min 3-beat publishing workflow, named J.A.R.V.I.S. Desktop AI Agent project addition, set 1st-of-month calendar nudge, and saved AI workspace memory. |
 
 ---
 
@@ -287,6 +288,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **AI Transparency & Engineering Ownership:** Using AI as a high-leverage pair programmer while taking 100% human ownership over data contracts, metric math, and HTTPS infrastructure reads as ultimate professional credibility.
   3. **Compounding Public Proof:** Launching an owned custom domain platform turns a temporary internship assignment into a permanent career platform.
 
+### 🔹 [Submission 35 — The Plan to Keep Building](submissions/submission_35_keep_building_plan.md)
+* **What Was Built:** Defined 30-minute 3-beat publishing workflow, named J.A.R.V.I.S. Personal AI Desktop Assistant project addition, set 1st-of-month calendar nudge, and preserved AI workspace context.
+* **What I Learned:**
+  1. **30-Minute Publishing Rhythm:** Structuring new case studies into a 3-beat shape (problem statement, technical code, empirical results) eliminates friction when adding new work.
+  2. **Concrete Nudges vs Vague Intentions:** Setting recurring monthly calendar reminders ensures portfolio maintenance becomes a compounding habit.
+  3. **Preserved Engineering Context:** Preserving the AI workspace design tokens and voice card reduces friction for future project additions.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -294,7 +302,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 ```text
 flyrank-ml-internship-starter/
 ├── README.md                                       <-- Production Capstone README (Setup, Architecture, V2 Results)
-├── SUBMISSION_OVERVIEW.md                          <-- You are here (Master index of all 34 submissions)
+├── SUBMISSION_OVERVIEW.md                          <-- You are here (Master index of all 35 submissions)
 ├── index.html                                      <-- Live Website: Deployed Capstone Research Paper & Contact Form
 ├── submission/
 │   └── paper_url.txt                               <-- Mandatory Pointer: Live Deployed Research Paper URL
@@ -332,7 +340,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_31_plant_your_flag.md              <-- Detailed Submission 31 breakdown & learnings
 │   ├── submission_32_ship_the_paper.md               <-- Detailed Submission 32 breakdown & learnings
 │   ├── submission_33_tell_the_story.md               <-- Detailed Submission 33 breakdown & learnings
-│   └── submission_34_retrospective_and_capstone.md   <-- Detailed Submission 34 breakdown & learnings
+│   ├── submission_34_retrospective_and_capstone.md   <-- Detailed Submission 34 breakdown & learnings
+│   └── submission_35_keep_building_plan.md           <-- Detailed Submission 35 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
