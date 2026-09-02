@@ -3,8 +3,8 @@
 **Task Reference:** `Ship the Paper (Machine Learning Track Week 8 ML-11)`  
 **Phase:** Submit / Capstone | **Duration:** 6 Hours  
 **Deliverable File:** [`submissions/submission_32_ship_the_paper.md`](submissions/submission_32_ship_the_paper.md)  
-**Mandatory URL Pointer File:** [`submission/paper_url.txt`](../submission/paper_url.txt) (`https://ankitpaul6201.github.io/Fly-rank-intern-01/`)  
-**Live Deployed Research Paper URL:** [`https://ankitpaul6201.github.io/Fly-rank-intern-01/`](https://ankitpaul6201.github.io/Fly-rank-intern-01/)  
+**Mandatory URL Pointer File:** [`submission/paper_url.txt`](../submission/paper_url.txt) (`https://flyrank.ankitpaul.me/`)  
+**Live Deployed Research Paper URL:** [`https://flyrank.ankitpaul.me/`](https://flyrank.ankitpaul.me/)  
 **Executed Capstone Notebook:** [`work/notebooks/capstone.ipynb`](../work/notebooks/capstone.ipynb)  
 **Exported Figure:** [`work/figures/capstone_model_vs_baseline.png`](../work/figures/capstone_model_vs_baseline.png)  
 **Primary Repository:** [`https://github.com/ankitpaul6201/Fly-rank-intern-01`](https://github.com/ankitpaul6201/Fly-rank-intern-01)
