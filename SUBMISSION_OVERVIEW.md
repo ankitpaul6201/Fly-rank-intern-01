@@ -35,6 +35,7 @@ Welcome to the **Submissions Overview** index for this repository. This director
 | **25** | **Phase: Build+ (ML-09 Validation and Research Claim Audit)** | 📄 [submission_25_validation_audit.md](submissions/submission_25_validation_audit.md) | [`work/notebooks/w06_validation_audit.ipynb`](work/notebooks/w06_validation_audit.ipynb) | Audited 2 research paper findings, ran before/after cross-validation split comparison, executed leakage trap, and rewrote claims into public-safe language. |
 | **26** | **Phase: Submit & AI Fluency (FL-08 Make It Do Something)** | 📄 [submission_26_wire_one_real_thing.md](submissions/submission_26_wire_one_real_thing.md) | [`index.html#contact`](index.html#contact) | Wired serverless contact form on Formspree free-tier endpoint, implemented fail-graceful validation, and authored 6-step data flow explainer. |
 | **27** | **Phase: Build+ (Checkpoint 1: Open It on Your Phone & Design Review)** | 📄 [submission_27_open_it_on_your_phone.md](submissions/submission_27_open_it_on_your_phone.md) | [`index.html`](index.html) | Executed mobile-first responsive audit, added @media queries & 48px touch targets, passed 10-second proof test, and documented design crit matrix. |
+| **28** | **Phase: Build+ (Checkpoint 1: Survive the Crit)** | 📄 [submission_28_survive_the_crit.md](submissions/submission_28_survive_the_crit.md) | [`index.html`](index.html) | Conducted structured peer design review against Week 1 Proof Statement, sorted feedback into Must-Fix vs Nice-to-Have, and verified live resolution. |
 
 ---
 
@@ -231,6 +232,13 @@ Welcome to the **Submissions Overview** index for this repository. This director
   2. **Human Interface Accessibility:** Maintaining 48px minimum touch target heights and WCAG AA 7.1:1 text contrast ratios ensures universal usability.
   3. **Objectivity in Design Crits:** Accepting feedback objectively and categorizing items into Must-Fix vs Nice-to-Have elevates portfolio credibility without defensive pushback.
 
+### 🔹 [Submission 28 — Survive the Crit (Checkpoint 1 Gate)](submissions/submission_28_survive_the_crit.md)
+* **What Was Built:** Evaluated live portfolio against Week 1 Proof Statement (Submission 5), collected peer feedback across 2 diagnostic questions, sorted observations into Must-Fix vs Nice-to-Have, and verified live resolution on GitHub Pages.
+* **What I Learned:**
+  1. **Non-Defensive Feedback Reception:** Viewing critique as actionable data rather than a personal attack isolates genuine UX friction points.
+  2. **Ruthless Prioritization:** Prioritizing Must-Fix items (mobile layout, touch target accessibility) over Nice-to-Have polish features ensures rapid deployment of high-impact fixes.
+  3. **Empirical Validation of Positioning:** 10-second proof tests confirm whether external reviewers grasp core engineering claims instantly.
+
 ---
 
 ## 🛠️ Repository Folder Map
@@ -268,7 +276,8 @@ flyrank-ml-internship-starter/
 │   ├── submission_24_personal_website_live.md        <-- Detailed Submission 24 breakdown & learnings
 │   ├── submission_25_validation_audit.md             <-- Detailed Submission 25 breakdown & learnings
 │   ├── submission_26_wire_one_real_thing.md          <-- Detailed Submission 26 breakdown & learnings
-│   └── submission_27_open_it_on_your_phone.md        <-- Detailed Submission 27 breakdown & learnings
+│   ├── submission_27_open_it_on_your_phone.md        <-- Detailed Submission 27 breakdown & learnings
+│   └── submission_28_survive_the_crit.md             <-- Detailed Submission 28 breakdown & learnings
 ├── notebooks/
 │   ├── 01_first_look_and_discovery.ipynb           <-- Executed: Pipeline, discoveries, your turn
 │   └── 02_your_first_readable_model.ipynb          <-- Executed: Decision tree, leakage, your turn
